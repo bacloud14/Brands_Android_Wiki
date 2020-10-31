@@ -23,18 +23,14 @@ class ProductEntry(
          */
 
         fun initProductEntryList(resources: Resources, s: String, limit: Int, random: Boolean): List<ProductEntry> {
-            target = when (s) {
-                "featured" -> R.raw.featured
-                "food" -> R.raw.featured
-                else -> { // Note the block
-                    R.raw.products
-                }
-            }
-            val inputStream = resources.openRawResource(target)
+            val inputStream = resources.openRawResource(R.raw.products)
+
             val jsonProductsString = inputStream.bufferedReader().use(BufferedReader::readText)
             val gson = Gson()
             val productListType = object : TypeToken<ArrayList<ProductEntry>>() {}.type
             var list = gson.fromJson<List<ProductEntry>>(jsonProductsString, productListType)
+            if (s != "all")
+                list = list.filter { it.category == s }
             when (random) {
                 true -> Collections.shuffle(list)
             }

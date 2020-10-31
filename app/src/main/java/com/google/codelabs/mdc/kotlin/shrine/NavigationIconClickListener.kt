@@ -9,6 +9,7 @@ import android.util.DisplayMetrics
 import android.view.View
 import android.view.animation.Interpolator
 import android.widget.ImageView
+import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 
 /**
  * [android.view.View.OnClickListener] used to translate the product grid sheet downward on
@@ -21,6 +22,7 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
     private val animatorSet = AnimatorSet()
     private val height: Int
     private var backdropShown = false
+    private lateinit var theList: List<ProductEntry>
 
     init {
         val displayMetrics = DisplayMetrics()
@@ -52,7 +54,11 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
     private fun updateIcon(view: View) {
         if (openIcon != null && closeIcon != null) {
             if (view !is ImageView) {
-                throw IllegalArgumentException("updateIcon() must be called on an ImageView")
+                theList = ProductEntry.initProductEntryList(ProductGridFragment.productGridFragmentResources, s = "featured", limit = 0, random = false)
+                ProductGridFragment.adapter.replaceList(theList)
+
+                return
+//                throw IllegalArgumentException("updateIcon() must be called on an ImageView")
             }
             if (backdropShown) {
                 view.setImageDrawable(closeIcon)
