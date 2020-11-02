@@ -19,7 +19,7 @@ class ProductCardDetailFragment : Fragment(){
         setHasOptionsMenu(true)
         println("onCreate")
     }
-    
+
     @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         println("onCreateView")
