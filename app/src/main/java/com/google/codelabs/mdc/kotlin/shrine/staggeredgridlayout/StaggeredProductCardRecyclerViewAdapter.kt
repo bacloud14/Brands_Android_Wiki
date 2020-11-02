@@ -1,8 +1,13 @@
 package com.google.codelabs.mdc.kotlin.shrine.staggeredgridlayout
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.google.codelabs.mdc.kotlin.shrine.NavigationHost
+import com.google.codelabs.mdc.kotlin.shrine.ProductCardDetailFragment
+import com.google.codelabs.mdc.kotlin.shrine.ProductGridFragment
 
 import com.google.codelabs.mdc.kotlin.shrine.R
 import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
@@ -28,7 +33,18 @@ class StaggeredProductCardRecyclerViewAdapter(private val productList: List<Prod
         }
 
         val layoutView = LayoutInflater.from(parent.context).inflate(layoutId, parent, false)
-        return StaggeredProductCardViewHolder(layoutView)
+
+        var cardViewHolder = StaggeredProductCardViewHolder(layoutView)
+        cardViewHolder.itemView.setOnClickListener(View.OnClickListener {
+            var activity:AppCompatActivity = it.context as AppCompatActivity
+            var productCardDetailFragment = ProductCardDetailFragment()
+            var productGridFragment = ProductGridFragment()
+//            activity.supportFragmentManager.beginTransaction().replace(R.id.product_card_fragment, productCardDetailFragment).addToBackStack(null).commit()
+            (activity as NavigationHost).navigateTo(ProductCardDetailFragment(), false) // Navigate to the next Fragment
+
+//            activity.supportFragmentManager.beginTransaction().replace(R.id.product_grid_fragment, productGridFragment).addToBackStack(null).commit()
+        })
+        return cardViewHolder
     }
 
     override fun onBindViewHolder(holder: StaggeredProductCardViewHolder, position: Int) {

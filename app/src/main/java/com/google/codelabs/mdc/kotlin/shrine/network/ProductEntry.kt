@@ -23,12 +23,13 @@ class ProductEntry(
          */
 
         fun initProductEntryList(resources: Resources, s: String, limit: Int, random: Boolean): List<ProductEntry> {
-            val inputStream = resources.openRawResource(R.raw.products)
+            val inputStream = resources.openRawResource(R.raw.test)
 
             val jsonProductsString = inputStream.bufferedReader().use(BufferedReader::readText)
             val gson = Gson()
             val productListType = object : TypeToken<ArrayList<ProductEntry>>() {}.type
             var list = gson.fromJson<List<ProductEntry>>(jsonProductsString, productListType)
+            list = list.filter { it.url != "" }
             if (s != "all")
                 list = list.filter { it.category == s }
             when (random) {
