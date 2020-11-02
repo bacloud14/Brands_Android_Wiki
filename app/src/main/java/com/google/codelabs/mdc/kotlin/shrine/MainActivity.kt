@@ -8,10 +8,8 @@ import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 class MainActivity : AppCompatActivity(), NavigationHost {
 
     companion object {
-        lateinit var url: String
-        lateinit var product: ProductEntry
-        lateinit var title: String
-        var position: Int = 0
+        lateinit var currentProduct: ProductEntry
+        var currentPosition: Int = 0
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

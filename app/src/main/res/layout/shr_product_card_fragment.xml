@@ -9,13 +9,46 @@
     android:clipToPadding="false"
     tools:context=".ProductCardDetailFragment">
 
+    <LinearLayout
+        style="@style/Widget.Shrine.Backdrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="88dp">
+
+<!--        <include layout="@layout/shr_backdrop" />-->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="642dp">
+
+            <LinearLayout
+                android:layout_width="@dimen/shr_staggered_product_grid_card_width_landscape"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/shr_staggered_product_grid_spacing_small"
+                android:layout_marginLeft="@dimen/shr_staggered_product_grid_spacing_small"
+                android:orientation="vertical">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/product_image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/shr_staggered_product_grid_card_height_landscape"
+                    android:background="?attr/colorPrimaryDark"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/app_bar"
+            android:id="@+id/app_bar2"
             style="@style/Widget.Shrine.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -25,28 +58,7 @@
             android:paddingRight="12dp"
             app:contentInsetStart="0dp"
             app:navigationIcon="@drawable/shr_branded_menu"
-            app:title="@string/shr_app_name" />
+            app:title="@string/shr_dashboard" />
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="@dimen/shr_staggered_product_grid_card_width_landscape"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/shr_staggered_product_grid_spacing_small"
-            android:layout_marginLeft="@dimen/shr_staggered_product_grid_spacing_small"
-            android:orientation="vertical"
-            android:layout_gravity="center">
-
-            <com.android.volley.toolbox.NetworkImageView
-                android:id="@+id/product_image2"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/shr_staggered_product_grid_card_height_landscape"
-                android:background="?attr/colorPrimaryDark"
-                android:scaleType="centerCrop" />
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
 </FrameLayout>

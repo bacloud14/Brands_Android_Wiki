@@ -39,14 +39,8 @@ class StaggeredProductCardRecyclerViewAdapter(private val productList: List<Prod
     override fun onBindViewHolder(holder: StaggeredProductCardViewHolder, position: Int) {
         holder.itemView.setOnClickListener(View.OnClickListener {
             var activity:AppCompatActivity = it.context as AppCompatActivity
-            println("position $position")
-            MainActivity.position = position
-            val product = list!![position]
-            println("title")
-            MainActivity.title = product.title
-            println("title")
-            MainActivity.product = product
-            MainActivity.url = product.url
+
+            MainActivity.currentProduct = list!![position]
 //            activity.supportFragmentManager.beginTransaction().replace(R.id.product_card_fragment, productCardDetailFragment).addToBackStack(null).commit()
             (activity as NavigationHost).navigateTo(ProductCardDetailFragment(), false) // Navigate to the next Fragment
 

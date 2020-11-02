@@ -12,10 +12,11 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.android.volley.toolbox.NetworkImageView
 import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
-import kotlinx.android.synthetic.main.shr_product_grid_fragment.view.*
+import kotlinx.android.synthetic.main.shr_product_card_fragment.view.*
+import kotlinx.android.synthetic.main.shr_product_grid_fragment.view.app_bar
 
 class ProductCardDetailFragment : Fragment(){
-
+    private lateinit var navigationIconClickListener: NavigationIconClickListener2
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
@@ -24,24 +25,26 @@ class ProductCardDetailFragment : Fragment(){
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         println("onCreateView")
-        println(MainActivity.position)
-        println("title")
-        println(MainActivity.title)
-        println("product")
-        println(MainActivity.product)
+        println(MainActivity.currentPosition)
+        println(MainActivity.currentProduct.title)
 
         val view = inflater.inflate(R.layout.shr_product_card_fragment, container, false)
         // Set up the tool bar
-        (activity as AppCompatActivity).setSupportActionBar(view.app_bar)
-        view.app_bar.setOnClickListener(View.OnClickListener {
+        (activity as AppCompatActivity).setSupportActionBar(view.app_bar2)
+//        navigationIconClickListener = NavigationIconClickListener2(
+//                activity!!,
+//                ContextCompat.getDrawable(context!!, R.drawable.shr_branded_menu), // Menu open icon
+//                ContextCompat.getDrawable(context!!, R.drawable.shr_close_menu))
+//        view.app_bar2.setNavigationOnClickListener(navigationIconClickListener) // Menu close icon
+        view.app_bar2.setNavigationOnClickListener {
             (activity as NavigationHost).navigateTo(ProductGridFragment(), false)
-        })
+        }
         return view /* super.onCreateView(inflater, container, savedInstanceState)*/
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         var productImage  = getView()?.findViewById<NetworkImageView>(R.id.product_image2)
-        ImageRequester.setImageFromUrl(productImage!!, MainActivity.url)
+        ImageRequester.setImageFromUrl(productImage!!, MainActivity.currentProduct.url)
     }
 }
