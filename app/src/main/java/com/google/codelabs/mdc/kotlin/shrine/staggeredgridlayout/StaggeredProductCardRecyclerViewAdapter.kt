@@ -5,11 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.google.codelabs.mdc.kotlin.shrine.NavigationHost
-import com.google.codelabs.mdc.kotlin.shrine.ProductCardDetailFragment
-import com.google.codelabs.mdc.kotlin.shrine.ProductGridFragment
+import com.google.codelabs.mdc.kotlin.shrine.*
 
-import com.google.codelabs.mdc.kotlin.shrine.R
 import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
 import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 
@@ -35,19 +32,25 @@ class StaggeredProductCardRecyclerViewAdapter(private val productList: List<Prod
         val layoutView = LayoutInflater.from(parent.context).inflate(layoutId, parent, false)
 
         var cardViewHolder = StaggeredProductCardViewHolder(layoutView)
-        cardViewHolder.itemView.setOnClickListener(View.OnClickListener {
+
+        return cardViewHolder
+    }
+
+    override fun onBindViewHolder(holder: StaggeredProductCardViewHolder, position: Int) {
+        holder.itemView.setOnClickListener(View.OnClickListener {
             var activity:AppCompatActivity = it.context as AppCompatActivity
-            var productCardDetailFragment = ProductCardDetailFragment()
-            var productGridFragment = ProductGridFragment()
+            println("position $position")
+            MainActivity.position = position
+            val product = list!![position]
+            println("title")
+            MainActivity.title = product.title
+            println("title")
+            MainActivity.product = product
 //            activity.supportFragmentManager.beginTransaction().replace(R.id.product_card_fragment, productCardDetailFragment).addToBackStack(null).commit()
             (activity as NavigationHost).navigateTo(ProductCardDetailFragment(), false) // Navigate to the next Fragment
 
 //            activity.supportFragmentManager.beginTransaction().replace(R.id.product_grid_fragment, productGridFragment).addToBackStack(null).commit()
         })
-        return cardViewHolder
-    }
-
-    override fun onBindViewHolder(holder: StaggeredProductCardViewHolder, position: Int) {
         if (list != null && position < list!!.size) {
             val product = list!![position]
             holder.productTitle.text = product.title

@@ -3,9 +3,15 @@ package com.google.codelabs.mdc.kotlin.shrine
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 
 class MainActivity : AppCompatActivity(), NavigationHost {
 
+    companion object {
+        lateinit var product: ProductEntry
+        lateinit var title: String
+        var position: Int = 0
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shr_main_activity)

@@ -20,9 +20,13 @@ class ProductCardDetailFragment : Fragment(){
         println("onCreate")
     }
 
-    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN)
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         println("onCreateView")
+        println(MainActivity.position)
+        println("title")
+        println(MainActivity.title)
+        println("product")
+        println(MainActivity.product)
         val view = inflater.inflate(R.layout.shr_product_card_fragment, container, false)
         // Set up the tool bar
         (activity as AppCompatActivity).setSupportActionBar(view.app_bar)
