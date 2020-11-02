@@ -8,6 +8,7 @@ import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 class MainActivity : AppCompatActivity(), NavigationHost {
 
     companion object {
+        lateinit var url: String
         lateinit var product: ProductEntry
         lateinit var title: String
         var position: Int = 0

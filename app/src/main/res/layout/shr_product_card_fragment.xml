@@ -41,7 +41,7 @@
             android:layout_gravity="center">
 
             <com.android.volley.toolbox.NetworkImageView
-                android:id="@+id/product_image"
+                android:id="@+id/product_image2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/shr_staggered_product_grid_card_height_landscape"
                 android:background="?attr/colorPrimaryDark"

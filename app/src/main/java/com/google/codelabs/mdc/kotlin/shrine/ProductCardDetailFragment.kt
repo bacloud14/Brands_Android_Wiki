@@ -10,6 +10,8 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.android.volley.toolbox.NetworkImageView
+import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
 import kotlinx.android.synthetic.main.shr_product_grid_fragment.view.*
 
 class ProductCardDetailFragment : Fragment(){
@@ -27,6 +29,7 @@ class ProductCardDetailFragment : Fragment(){
         println(MainActivity.title)
         println("product")
         println(MainActivity.product)
+
         val view = inflater.inflate(R.layout.shr_product_card_fragment, container, false)
         // Set up the tool bar
         (activity as AppCompatActivity).setSupportActionBar(view.app_bar)
@@ -34,5 +37,11 @@ class ProductCardDetailFragment : Fragment(){
             (activity as NavigationHost).navigateTo(ProductGridFragment(), false)
         })
         return view /* super.onCreateView(inflater, container, savedInstanceState)*/
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        var productImage  = getView()?.findViewById<NetworkImageView>(R.id.product_image2)
+        ImageRequester.setImageFromUrl(productImage!!, MainActivity.url)
     }
 }

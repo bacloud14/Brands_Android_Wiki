@@ -46,6 +46,7 @@ class StaggeredProductCardRecyclerViewAdapter(private val productList: List<Prod
             MainActivity.title = product.title
             println("title")
             MainActivity.product = product
+            MainActivity.url = product.url
 //            activity.supportFragmentManager.beginTransaction().replace(R.id.product_card_fragment, productCardDetailFragment).addToBackStack(null).commit()
             (activity as NavigationHost).navigateTo(ProductCardDetailFragment(), false) // Navigate to the next Fragment
 
