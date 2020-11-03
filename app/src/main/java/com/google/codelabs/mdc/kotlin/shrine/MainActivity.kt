@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity(), NavigationHost {
         lateinit var currentProduct: ProductEntry
         var currentPosition: Int = 0
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shr_main_activity)

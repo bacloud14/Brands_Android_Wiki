@@ -1,13 +1,9 @@
 package com.google.codelabs.mdc.kotlin.shrine
 
 import android.animation.AnimatorSet
-import android.animation.ObjectAnimator
-import android.app.Activity
 import android.content.Context
 import android.graphics.drawable.Drawable
-import android.util.DisplayMetrics
 import android.view.View
-import android.view.animation.Interpolator
 import android.widget.ImageView
 import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 
@@ -32,7 +28,7 @@ class NavigationIconClickListener2 @JvmOverloads internal constructor(
     private fun updateIcon(view: View) {
         if (openIcon != null && closeIcon != null) {
             if (view !is ImageView) {
-                theList = ProductEntry.initProductEntryList(ProductGridFragment.productGridFragmentResources, s = "food_and_beverage", limit = 0, random = false)
+                theList = ProductEntry.initProductEntryList(ProductGridFragment.productGridFragmentResources, category = "food_and_beverage", query = "all", limit = 0, random = false)
                 ProductGridFragment.adapter.replaceList(theList)
 
                 return

@@ -22,7 +22,7 @@ class ProductEntry(
          * Loads a raw JSON at R.raw.products and converts it into a list of ProductEntry objects
          */
 
-        fun initProductEntryList(resources: Resources, s: String, limit: Int, random: Boolean): List<ProductEntry> {
+        fun initProductEntryList(resources: Resources, category: String, query: String, limit: Int, random: Boolean): List<ProductEntry> {
             val inputStream = resources.openRawResource(R.raw.test)
 
             val jsonProductsString = inputStream.bufferedReader().use(BufferedReader::readText)
@@ -30,8 +30,10 @@ class ProductEntry(
             val productListType = object : TypeToken<ArrayList<ProductEntry>>() {}.type
             var list = gson.fromJson<List<ProductEntry>>(jsonProductsString, productListType)
             list = list.filter { it.url != "" }
-            if (s != "all")
-                list = list.filter { it.category == s }
+            if (query != "all")
+                list = list.filter { it.title.startsWith(query, true) }
+            if (category != "all")
+                list = list.filter { it.category.startsWith(category, true) }
             when (random) {
                 true -> Collections.shuffle(list)
             }

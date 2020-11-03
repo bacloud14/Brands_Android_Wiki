@@ -5,8 +5,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.google.codelabs.mdc.kotlin.shrine.*
-
+import com.google.codelabs.mdc.kotlin.shrine.MainActivity
+import com.google.codelabs.mdc.kotlin.shrine.NavigationHost
+import com.google.codelabs.mdc.kotlin.shrine.ProductCardDetailFragment
+import com.google.codelabs.mdc.kotlin.shrine.R
 import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
 import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 
@@ -38,7 +40,7 @@ class StaggeredProductCardRecyclerViewAdapter(private val productList: List<Prod
 
     override fun onBindViewHolder(holder: StaggeredProductCardViewHolder, position: Int) {
         holder.itemView.setOnClickListener(View.OnClickListener {
-            var activity:AppCompatActivity = it.context as AppCompatActivity
+            var activity: AppCompatActivity = it.context as AppCompatActivity
 
             MainActivity.currentProduct = list!![position]
 //            activity.supportFragmentManager.beginTransaction().replace(R.id.product_card_fragment, productCardDetailFragment).addToBackStack(null).commit()

@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.*
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.widget.Button
+import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
@@ -16,6 +17,7 @@ import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
 import com.google.codelabs.mdc.kotlin.shrine.staggeredgridlayout.StaggeredProductCardRecyclerViewAdapter
 import kotlinx.android.synthetic.main.shr_product_grid_fragment.view.*
 
+
 class ProductGridFragment : Fragment() {
 
     companion object {
@@ -23,6 +25,7 @@ class ProductGridFragment : Fragment() {
         lateinit var adapter: StaggeredProductCardRecyclerViewAdapter
     }
 
+    private var isSearch: Boolean = false
     private lateinit var navigationIconClickListener: NavigationIconClickListener
     private lateinit var theList: List<ProductEntry>
 
@@ -57,7 +60,7 @@ class ProductGridFragment : Fragment() {
         }
         view.recycler_view.layoutManager = gridLayoutManager
 
-        theList = ProductEntry.initProductEntryList(resources, s = "all", limit = 15, random = true)
+        theList = ProductEntry.initProductEntryList(resources, category = "all", query = "all", limit = 15, random = true)
         adapter = StaggeredProductCardRecyclerViewAdapter(
                 theList)
         view.recycler_view.adapter = adapter
@@ -75,7 +78,56 @@ class ProductGridFragment : Fragment() {
         return view
     }
 
+    override fun onPrepareOptionsMenu(menu: Menu) {
+        super.onPrepareOptionsMenu(menu)
+        val search = menu.findItem(R.id.search)
+//        item.setOnMenuItemClickListener (object : MenuItem.OnMenuItemClickListener {
+//            override fun onMenuItemClick(p0: MenuItem?): Boolean {
+//                isSearch = true
+//                println("isSearch $isSearch")
+//                return true
+//            }
+//        })
+        search.setOnActionExpandListener(object : MenuItem.OnActionExpandListener {
+            override fun onMenuItemActionExpand(menuItem: MenuItem?): Boolean {
+                isSearch = true
+                println("isSearch $isSearch")
+                return true
+            }
+
+            override fun onMenuItemActionCollapse(menuItem: MenuItem?): Boolean {
+                isSearch = false
+                println("isSearch $isSearch")
+                return true
+            }
+        })
+
+        var vwSearch = search.actionView as SearchView
+        vwSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String): Boolean {
+                println(query)
+                theList = ProductEntry.initProductEntryList(resources, category = "all", query = query, limit = 0, random = false)
+                adapter.replaceList(theList)
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String): Boolean {
+                theList = ProductEntry.initProductEntryList(resources, category = "all", query = newText, limit = 0, random = false)
+                adapter.replaceList(theList)
+                return true
+            }
+        })
+
+        vwSearch.setOnCloseListener(SearchView.OnCloseListener { //Do something on collapse Searchview
+            false
+        })
+
+    }
+
+
     private fun attachChangesProcessor(view: View) {
+
+
         // get reference to button
         val featured = view.findViewById(R.id.featured) as Button
 
