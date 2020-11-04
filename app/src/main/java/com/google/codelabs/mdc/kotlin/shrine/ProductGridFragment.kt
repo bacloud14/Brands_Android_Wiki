@@ -38,6 +38,7 @@ class ProductGridFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment with the ProductGrid theme
+//        context?.theme?.applyStyle(R.style.Theme_Shrine_Autumn, true)
         val view = inflater.inflate(R.layout.shr_product_grid_fragment, container, false)
 
         // Set up the tool bar
@@ -164,15 +165,6 @@ class ProductGridFragment : Fragment() {
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
         val nCurrentOrientation: Int = getScreenOrientation()
-
-        if (nCurrentOrientation == 2) {
-            this.view!!.app_bar.setNavigationOnClickListener(NavigationIconClickListener(
-                    activity!!,
-                    this.view!!.product_grid,
-                    AccelerateDecelerateInterpolator(),
-                    ContextCompat.getDrawable(context!!, R.drawable.shr_branded_menu), // Menu open icon
-                    ContextCompat.getDrawable(context!!, R.drawable.shr_close_menu))) // Menu close icon
-        }
     }
 
     private fun getScreenOrientation(): Int {

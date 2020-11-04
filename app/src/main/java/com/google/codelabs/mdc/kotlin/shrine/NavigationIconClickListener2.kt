@@ -30,7 +30,6 @@ class NavigationIconClickListener2 @JvmOverloads internal constructor(
             if (view !is ImageView) {
                 theList = ProductEntry.initProductEntryList(ProductGridFragment.productGridFragmentResources, category = "food_and_beverage", query = "all", limit = 0, random = false)
                 ProductGridFragment.adapter.replaceList(theList)
-
                 return
 //                throw IllegalArgumentException("updateIcon() must be called on an ImageView")
             }

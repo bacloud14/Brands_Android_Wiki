@@ -10,7 +10,8 @@
     tools:context=".ProductCardDetailFragment">
 
     <LinearLayout
-        style="@style/Widget.Shrine.Backdrop"
+        style="@style/Theme.Shrine.Autumn"
+        android:background="@color/colorStripes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
@@ -21,22 +22,45 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="642dp">
+            android:layout_height="match_parent"
+            android:id="@+id/itt">
 
             <LinearLayout
-                android:layout_width="@dimen/shr_staggered_product_grid_card_width_landscape"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="@dimen/shr_staggered_product_grid_spacing_small"
-                android:layout_marginLeft="@dimen/shr_staggered_product_grid_spacing_small"
+
                 android:orientation="vertical">
 
                 <com.android.volley.toolbox.NetworkImageView
                     android:id="@+id/product_image2"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/shr_staggered_product_grid_card_height_landscape"
-                    android:background="?attr/colorPrimaryDark"
+                    android:background="#AEDDDDDD"
                     android:scaleType="centerCrop" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/product_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shr_product_title"
+                        android:textAlignment="center"
+                        android:textAppearance="?attr/textAppearanceSubtitle2" />
+
+                    <TextView
+                        android:id="@+id/product_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shr_product_description"
+                        android:textAlignment="center"
+                        android:scrollbars = "vertical"
+                        android:textAppearance="?attr/textAppearanceBody2" />
+                </LinearLayout>
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
