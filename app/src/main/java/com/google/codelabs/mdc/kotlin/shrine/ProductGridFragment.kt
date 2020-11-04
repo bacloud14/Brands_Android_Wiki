@@ -129,35 +129,19 @@ class ProductGridFragment : Fragment() {
     private fun attachChangesProcessor(view: View) {
         val featured = view.findViewById(R.id.featured) as Button
         featured.setOnClickListener(navigationIconClickListener)
-        val beauty_and_cosmetics = view.findViewById(R.id.beauty_and_cosmetics) as Button
-        beauty_and_cosmetics.setOnClickListener(navigationIconClickListener)
+        featured.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_featured, 0, 0, 0);
+        val beautyAndCosmetics = view.findViewById(R.id.beauty_and_cosmetics) as Button
+        beautyAndCosmetics.setOnClickListener(navigationIconClickListener)
+        beautyAndCosmetics.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_beauty_and_cosmetics, 0, 0, 0);
         val cars = view.findViewById(R.id.cars) as Button
         cars.setOnClickListener(navigationIconClickListener)
-        val fashion_and_clothing = view.findViewById(R.id.fashion_and_clothing) as Button
-        fashion_and_clothing.setOnClickListener(navigationIconClickListener)
-        val food_and_beverage = view.findViewById(R.id.food_and_beverage) as Button
-        food_and_beverage.setOnClickListener(navigationIconClickListener)
-//        featured.setOnClickListener {
-////            val displayMetrics = DisplayMetrics()
-////            (context as Activity).windowManager.defaultDisplay.getMetrics(displayMetrics)
-////            var height = displayMetrics.heightPixels
-////            val animatorSet = AnimatorSet()
-////            animatorSet.removeAllListeners()
-////            animatorSet.end()
-////            animatorSet.cancel()
-////            val translateY = height - this.resources.getDimensionPixelSize(R.dimen.shr_product_grid_reveal_height)
-////            val animator = ObjectAnimator.ofFloat(view.app_bar, "translationY", 0.toFloat())
-////            animator.duration = 500
-////            val interpolator: Interpolator? = null
-////            if (interpolator != null) {
-////                animator.interpolator = interpolator
-////            }
-////            animatorSet.play(animator)
-////            animator.start()
-//            theList = ProductEntry.initProductEntryList(resources, s = "featured", limit = 0, random = false)
-//            this.adapter.replaceList(theList)
-//        }
-
+        cars.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_cars, 0, 0, 0);
+        val fashionAndClothing = view.findViewById(R.id.fashion_and_clothing) as Button
+        fashionAndClothing.setOnClickListener(navigationIconClickListener)
+        fashionAndClothing.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_fashion, 0, 0, 0);
+        val foodAndBeverage = view.findViewById(R.id.food_and_beverage) as Button
+        foodAndBeverage.setOnClickListener(navigationIconClickListener)
+        foodAndBeverage.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_food_and_beverages, 0, 0, 0);
     }
 
     override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {

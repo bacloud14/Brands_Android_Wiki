@@ -44,6 +44,7 @@
     </style>
 
     <style name="Widget.Shrine.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+<!--        <item name="icon">@android:drawable/ic_menu_compass</item>-->
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
