@@ -13,7 +13,7 @@
         style="@style/Theme.Shrine.Autumn"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorStripes"
+        android:background="@drawable/wood_pattern"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingTop="88dp">
