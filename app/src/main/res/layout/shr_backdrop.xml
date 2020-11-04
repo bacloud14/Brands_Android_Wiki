@@ -3,46 +3,39 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/featured"
+        android:tag="featured"
         style="@style/Widget.Shrine.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/shr_featured_label" />
-
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/beauty_and_cosmetics"
+        android:tag="beauty_and_cosmetics"
         style="@style/Widget.Shrine.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shr_apartment_label" />
-
+        android:text="@string/shr_beauty_and_cosmetics_label" />
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/cars"
+        android:tag="cars"
         style="@style/Widget.Shrine.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shr_accessories_label" />
-
+        android:text="@string/shr_cars_label" />
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/fashion_and_clothing"
+        android:tag="fashion_and_clothing"
         style="@style/Widget.Shrine.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shr_shoes_label" />
-
+        android:text="@string/shr_fashion_and_clothing_label" />
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/food_and_beverage"
+        android:tag="food_and_beverage"
         style="@style/Widget.Shrine.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shr_tops_label" />
-
-    <com.google.android.material.button.MaterialButton
-        style="@style/Widget.Shrine.Button.TextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/shr_bottoms_label" />
-
-    <com.google.android.material.button.MaterialButton
-        style="@style/Widget.Shrine.Button.TextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/shr_dresses_label" />
+        android:text="@string/shr_food_and_beverage_label" />
 
     <View
         android:layout_width="56dp"
@@ -50,10 +43,5 @@
         android:layout_margin="16dp"
         android:background="?android:attr/textColorPrimary" />
 
-    <com.google.android.material.button.MaterialButton
-        style="@style/Widget.Shrine.Button.TextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/shr_account_label" />
 
 </merge>

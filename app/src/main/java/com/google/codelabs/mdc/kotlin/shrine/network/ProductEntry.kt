@@ -30,6 +30,7 @@ class ProductEntry(
             val productListType = object : TypeToken<ArrayList<ProductEntry>>() {}.type
             var list = gson.fromJson<List<ProductEntry>>(jsonProductsString, productListType)
             list = list.filter { it.url != "" }
+            list = list.filter { it.description != "" }
             if (query != "all")
                 list = list.filter { it.title.startsWith(query, true) }
             if (category != "all")

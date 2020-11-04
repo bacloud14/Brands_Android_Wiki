@@ -127,13 +127,16 @@ class ProductGridFragment : Fragment() {
 
 
     private fun attachChangesProcessor(view: View) {
-
-
-        // get reference to button
         val featured = view.findViewById(R.id.featured) as Button
-
-        // set on-click listener
         featured.setOnClickListener(navigationIconClickListener)
+        val beauty_and_cosmetics = view.findViewById(R.id.beauty_and_cosmetics) as Button
+        beauty_and_cosmetics.setOnClickListener(navigationIconClickListener)
+        val cars = view.findViewById(R.id.cars) as Button
+        cars.setOnClickListener(navigationIconClickListener)
+        val fashion_and_clothing = view.findViewById(R.id.fashion_and_clothing) as Button
+        fashion_and_clothing.setOnClickListener(navigationIconClickListener)
+        val food_and_beverage = view.findViewById(R.id.food_and_beverage) as Button
+        food_and_beverage.setOnClickListener(navigationIconClickListener)
 //        featured.setOnClickListener {
 ////            val displayMetrics = DisplayMetrics()
 ////            (context as Activity).windowManager.defaultDisplay.getMetrics(displayMetrics)

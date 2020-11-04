@@ -29,9 +29,9 @@ class ProductCardDetailFragment : Fragment() {
         // Set up the tool bar
         (activity as AppCompatActivity).setSupportActionBar(view.app_bar2)
         // Set cut corner background for API 23+
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            view.itt.background = context?.getDrawable(R.drawable.shr_product_grid_background_shape)
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//            view.itt.background = context?.getDrawable(R.drawable.shr_product_grid_background_shape)
+//        }
         view.product_title2.text = MainActivity.currentProduct.title
         view.brand.text = MainActivity.currentProduct.title
         view.product_description.text = MainActivity.currentProduct.description
