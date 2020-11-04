@@ -11,7 +11,6 @@ import androidx.fragment.app.Fragment
 import com.android.volley.toolbox.NetworkImageView
 import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
 import kotlinx.android.synthetic.main.shr_product_card_fragment.view.*
-import kotlinx.android.synthetic.main.shr_product_grid_fragment.view.*
 
 class ProductCardDetailFragment : Fragment() {
     private lateinit var navigationIconClickListener: NavigationIconClickListener2
@@ -34,6 +33,7 @@ class ProductCardDetailFragment : Fragment() {
             view.itt.background = context?.getDrawable(R.drawable.shr_product_grid_background_shape)
         }
         view.product_title2.text = MainActivity.currentProduct.title
+        view.brand.text = MainActivity.currentProduct.title
         view.product_description.text = MainActivity.currentProduct.description
         view.product_description.movementMethod = ScrollingMovementMethod()
 //        navigationIconClickListener = NavigationIconClickListener2(

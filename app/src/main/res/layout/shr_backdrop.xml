@@ -2,10 +2,10 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/featured"
         style="@style/Widget.Shrine.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/featured"
         android:text="@string/shr_featured_label" />
 
     <com.google.android.material.button.MaterialButton

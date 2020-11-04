@@ -3,11 +3,11 @@
     <!-- Base application theme. -->
     <style name="Theme.Shrine" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
-<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
-<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-<!--        <item name="colorAccent">@color/colorAccent</item>-->
-<!--        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
-<!--        <item name="android:textColorPrimary">@color/textColorPrimary</item>-->
+        <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--        <item name="colorAccent">@color/colorAccent</item>-->
+        <!--        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+        <!--        <item name="android:textColorPrimary">@color/textColorPrimary</item>-->
         <item name="colorPrimary">#FFCF44</item>
         <item name="colorPrimaryDark">#FD7125</item>
         <item name="colorAccent">#FD3E25</item>
@@ -49,7 +49,7 @@
 
     <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">?attr/colorAccent</item>
-<!--        <item name="android:theme">@style/Theme.Shrine</item>-->
+        <!--        <item name="android:theme">@style/Theme.Shrine</item>-->
         <item name="android:theme">?theme</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
         <item name="titleTextAppearance">@style/TextAppearance.Shrine.Toolbar</item>

@@ -11,19 +11,26 @@
 
     <LinearLayout
         style="@style/Theme.Shrine.Autumn"
-        android:background="@color/colorStripes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorStripes"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingTop="88dp">
 
-<!--        <include layout="@layout/shr_backdrop" />-->
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <!--        <include layout="@layout/shr_backdrop" />-->
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/itt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/itt">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,6 +45,7 @@
                     android:layout_height="@dimen/shr_staggered_product_grid_card_height_landscape"
                     android:background="#AEDDDDDD"
                     android:scaleType="centerCrop" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -56,9 +64,9 @@
                         android:id="@+id/product_description"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
                         android:text="@string/shr_product_description"
                         android:textAlignment="center"
-                        android:scrollbars = "vertical"
                         android:textAppearance="?attr/textAppearanceBody2" />
                 </LinearLayout>
             </LinearLayout>
@@ -81,8 +89,8 @@
             android:paddingEnd="12dp"
             android:paddingRight="12dp"
             app:contentInsetStart="0dp"
-            app:navigationIcon="@drawable/shr_branded_menu"
-            app:title="@string/shr_dashboard" />
+            app:navigationIcon="@drawable/shr_back"
+            app:title="@string/shr_back" />
     </com.google.android.material.appbar.AppBarLayout>
 
 </FrameLayout>

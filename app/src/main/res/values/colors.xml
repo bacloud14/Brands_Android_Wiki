@@ -5,7 +5,7 @@
     <color name="colorPrimaryDark">#FBB8AC</color>
     <color name="colorAccent">#FEDBD0</color>
     <color name="textColorPrimary">#442C2E</color>
-<!--    <color name="toolbarIconColor">@color/textColorPrimary</color>-->
+    <!--    <color name="toolbarIconColor">@color/textColorPrimary</color>-->
     <color name="toolbarIconColor">#FFFFFF</color>
     <color name="loginPageBackgroundColor">#FFFFFF</color>
     <color name="productGridBackgroundColor">#FFFFFF</color>

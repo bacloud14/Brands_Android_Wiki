@@ -22,9 +22,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="48dp"
             android:layout_marginBottom="16dp"
+            android:contentDescription="@string/shr_logo_content_description"
             android:tint="?android:attr/textColorPrimary"
-            app:srcCompat="@drawable/shr_logo"
-            android:contentDescription="@string/shr_logo_content_description"  />
+            app:srcCompat="@drawable/shr_logo" />
 
         <TextView
             android:layout_width="wrap_content"
