@@ -2,6 +2,7 @@ package com.google.codelabs.mdc.kotlin.shrine
 
 import android.os.Bundle
 import android.text.Editable
+import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,23 +19,10 @@ class LoginFragment : Fragment() {
             inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.shr_login_fragment, container, false)
-
+        view.donate.movementMethod = LinkMovementMethod.getInstance()
         // Set an error if the password is less than 8 characters.
         view.next_button.setOnClickListener {
-            if (!isPasswordValid(password_edit_text.text)) {
-                password_text_input.error = getString(R.string.shr_error_password)
-            } else {
-                password_text_input.error = null // Clear the error
-                (activity as NavigationHost).navigateTo(ProductGridFragment(), false) // Navigate to the next Fragment
-            }
-        }
-
-        // Clear the error once more than 8 characters are typed.
-        view.password_edit_text.setOnKeyListener { _, _, _ ->
-            if (isPasswordValid(password_edit_text.text)) {
-                password_text_input.error = null //Clear the error
-            }
-            false
+            (activity as NavigationHost).navigateTo(ProductGridFragment(), false) // Navigate to the next Fragment
         }
         return view
     }

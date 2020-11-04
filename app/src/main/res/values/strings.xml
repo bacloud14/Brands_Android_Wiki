@@ -10,6 +10,11 @@
     <string name="shr_search_title">Search</string>
     <string name="shr_product_title">Title</string>
     <string name="shr_product_description">Secondary text</string>
+    <string name="welcome_message">Welcome to Brands.</string>
+    <string name="donate_message">This application is free of ads.
+        I was working hard on learning Android and providing tiny free apps.
+        If you feel like helping me with coffee expenses, please check this link <a href="http://www.google.com">Google</a>
+        \n\nCheck my other apps on my Play store <a href="https://play.google.com/store/apps/developer?id=Abderrahim+Benseguane">page</a></string>
 
     <!-- Shrine backdrop menu labels -->
     <string name="shr_featured_label">Featured brands</string>
