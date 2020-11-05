@@ -355,7 +355,7 @@
   },
   {
     "category": "cars",
-    "description": "",
+    "description": "Jaguar (UK: /ˈdʒæɡjuər/, US: /ˈdʒæɡwɑːr/) is the luxury vehicle brand of Jaguar Land Rover, a British multinational car manufacturer with its headquarters in Whitley, Coventry, England. Jaguar Cars was the company that was responsible for the production of Jaguar cars until its operations were fully merged with those of Land Rover to form Jaguar Land Rover on 1 January 2013.",
     "title": "jaguar",
     "url": "https://drive.google.com/uc?export=view&id=1Ttob9LJCdOkv6hbQCrWcT9coKbSgucu_"
   },
@@ -397,7 +397,7 @@
   },
   {
     "category": "cars",
-    "description": "",
+    "description": "Lotus Cars Limited is a British automotive company headquartered in Norfolk, England. It manufactures sports cars and racing cars noted for their light weight and fine handling characteristics.\n\nLotus was previously involved in Formula One racing, via Team Lotus, winning the Formula One World Championship seven times.",
     "title": "lotus",
     "url": "https://drive.google.com/uc?export=view&id=1-B6m6eLWYJoUQYvhPaTHEp09TjZuF-5u"
   },
@@ -409,8 +409,8 @@
   },
   {
     "category": "cars",
-    "description": "",
-    "title": "mercedes",
+    "description": "Mercedes-Benz (German: [mɛɐ̯ˈtseːdəsˌbɛnts, -dɛs-]) is both a German automotive marque and, from late 2019 onwards, a subsidiary (Mercedes-Benz AG) of Daimler AG. Mercedes-Benz is known for producing luxury vehicles and commercial vehicles. The headquarters is in Stuttgart, Baden-Württemberg. The name first appeared in 1926 under Daimler-Benz. In 2018, Mercedes-Benz was the largest seller of premium vehicles in the world, having sold 2.31 million passenger cars.",
+    "title": "Mercedes-Benz",
     "url": "https://drive.google.com/uc?export=view&id=1VhZFoiSS6D8dvOC3hLTUqFAtHjDxgS7r"
   },
   {
@@ -457,27 +457,15 @@
   },
   {
     "category": "cars",
-    "description": "",
-    "title": "pro",
-    "url": "https://drive.google.com/uc?export=view&id=1yz7AbJYAruPBeMqwdIjn9eqpKuRPnc80"
-  },
-  {
-    "category": "cars",
-    "description": "",
+    "description": "Proton Holdings Berhad (PHB; informally Proton) is a Malaysian automotive company and automobile corporation active in automobile design, manufacturing, distribution and sales. Proton was established in 1983 as Malaysia's sole national badged car company until the advent of Perodua in 1993. The company is headquartered in Shah Alam, Selangor, and operates additional facilities at Proton City, Perak. 'Proton' is a Bahasa Malaysia acronym for Perusahaan Otomobil Nasional (National Automobile Company).",
     "title": "proton",
     "url": "https://drive.google.com/uc?export=view&id=1UPhAH6AIjbwZJJfDUfeKKD2he6Ie39CH"
   },
   {
     "category": "cars",
-    "description": "",
-    "title": "range",
+    "description": "The Land Rover Range Rover is both a full-sized luxury sport utility vehicle (SUV) (generally known simply as a Range Rover) produced by Land Rover, a marque of Jaguar Land Rover, and its own sub-brand. The Range Rover line was launched in 1970 by British Leyland. This flagship model is now in its fourth generation.\n\nThe Range Rover sub-brand includes the Range Rover Evoque, the Range Rover Velar and the Range Rover Sport.",
+    "title": "Land Rover Range Rover",
     "url": "https://drive.google.com/uc?export=view&id=1LgoaKc3FezZqgiphm5hUPYc8-RMl7VNt"
-  },
-  {
-    "category": "cars",
-    "description": "",
-    "title": "rcv",
-    "url": "https://drive.google.com/uc?export=view&id=1bXXQKNo8dNQezDjcbyd4Vi_We8-COjia"
   },
   {
     "category": "cars",
@@ -493,19 +481,19 @@
   },
   {
     "category": "cars",
-    "description": "",
+    "description": "Saab Automobile (/sɑːb/) was a manufacturer that was founded in Sweden in 1945 when its parent company, Saab AB, began a project to design a small automobile. The first production model, the Saab 92, was launched in 1949. In 1968 the parent company merged with Scania-Vabis, and ten years later the Saab 900 was launched, in time becoming Saab's best-selling model. In the mid-1980s the new Saab 9000 model also appeared.",
     "title": "saab",
     "url": "https://drive.google.com/uc?export=view&id=1h5-EaCJjWfdJ_ni15jQ0ZpIT6jLcJgBa"
   },
   {
     "category": "cars",
-    "description": "",
+    "description": "ŠKODA AUTO (Czech pronunciation: [ˈʃkoda] (About this soundlisten)), commonly called Škoda, is a Czech automobile manufacturer founded in 1895 as Laurin & Klement and headquartered in Mladá Boleslav, Czech Republic.\n\nIn 1925 Laurin & Klement was acquired by the industrial conglomerate Škoda Works, which itself became state owned in 1948. After 1991 it was gradually privatized to the German Volkswagen Group, in 1994 became its subsidiary and in 2000 a wholly owned subsidiary.",
     "title": "skoda",
     "url": "https://drive.google.com/uc?export=view&id=19kOjHhBw8CN7sA5mLZfgJ-0OpjwFnvKa"
   },
   {
     "category": "cars",
-    "description": "",
+    "description": "Smart (stylized as smart) is a German automotive brand and division of Daimler AG. The marque is based in Böblingen, Germany. It produces microcars and subcompacts, primarily the Fortwo and Forfour. The primary assembly plant is the Smartville in Hambach, France. Renault-owned Revoz, based in Novo Mesto, Slovenia, has also assembled Smart vehicles. Smart is marketed in 46 countries around the world, and production of the Fortwo had surpassed 1.7 million units by early 2015.",
     "title": "smart",
     "url": "https://drive.google.com/uc?export=view&id=1A-oAJcsEh_KjDDNf0f8rL3VEQWjnL8R1"
   },
@@ -529,7 +517,7 @@
   },
   {
     "category": "cars",
-    "description": "",
+    "description": "The Triumph Motor Company was a British car and motor manufacturing company in the 19th and 20th centuries. The marque had its origins in 1885 when Siegfried Bettmann of Nuremberg formed S. Bettmann & Co. and started importing bicycles from Europe and selling them under his own trade name in London. The trade name became \"Triumph\" the following year, and in 1887 Bettmann was joined by a partner, Moritz Schulte, also from Germany. In 1889, the businessmen started producing their own bicycles in Coventry, England.",
     "title": "triumph",
     "url": "https://drive.google.com/uc?export=view&id=19mZxlgMAS0YoxIaXbsJ9FbtuKJXuOWLi"
   },
@@ -559,32 +547,26 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "authorised",
-    "url": "https://drive.google.com/uc?export=view&id=1RFT8E3gD-eUG5osNN2xPX3_Q_3x8cEUL"
-  },
-  {
-    "category": "fashion_and_clothing",
     "description": "Avirex  is an American company that designs, manufactures and markets clothing lines. It was founded by Jeff Clyman in 1975 as a brand for military apparel. Contrary to popular belief, Avirex was not a U.S. military supplier during World War II. In 1987 the company worked on re-issuing of A-2 jacket for the United States Air Force.\nIn 2006, Jeff Clyman sold the Avirex brand and trademark as well as the Avirex sportswear and hip-hop fashion lines in Europe, Japan, and the United States. The new owner of the Avirex brand in the United States is Eck\u014d Unltd.\nJeff Clyman founded a new company for military apparel called Cockpit USA.",
     "title": "avirex",
     "url": "https://drive.google.com/uc?export=view&id=1WEiThccFt8mEd9UK1H68wLDgfpRIqllZ"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "A women's clothing line created by Max Azria",
     "title": "bcbg",
     "url": "https://drive.google.com/uc?export=view&id=1kaR9AHy9LI41XNzrBB92letj18ABSI73"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Benetton Group S.r.l. is a global fashion brand based in Ponzano Veneto, Italy founded in 1965. Benetton Group has a network of about 5,000 stores worldwide. It is a wholly owned subsidiary of the Benetton family's holding company called Edizione.",
     "title": "benetton",
     "url": "https://drive.google.com/uc?export=view&id=1ZTC0EH_rf84oS6ee4xGg1j4y1grH1xoE"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "body",
+    "description": "Body Glove is an American brand of watersports apparel and accessories that was founded in 1953 by twin brothers Bill and Bob Meistrell. The brothers are often credited with inventing the first practical wetsuit in the early 1950s at the back of their Redondo Beach, California surf shop, Dive N' Surf. From those wetsuits, Body Glove branched out into other product categories. They now make wetsuits, swimsuits, clothing, shoes, life vests, sunglasses, wakeboards, paddle boards, towables, backpacks, phone cases and snorkeling equipment.",
+    "title": "Body Glove",
     "url": "https://drive.google.com/uc?export=view&id=1yrwm3WdxcmBUbxcLy1iWTFdqOr8Prq9P"
   },
   {
@@ -595,31 +577,25 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "boss",
+    "description": "Hugo Boss AG, often styled as BOSS, is a German luxury fashion house headquartered in Metzingen, Baden-Württemberg. The company produces clothing, accessories, footwear and fragrances. Hugo Boss is one of the biggest German clothing companies, with global sales of €2.9 billion in 2019. Its stock is a component of the MDAX.",
+    "title": "Hugo Boss",
     "url": "https://drive.google.com/uc?export=view&id=1vDhkqGYsR68wp-EmBtcFpjLfgcv9RaqW"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Brioni is an Italian menswear couture house owned by French holding company Kering. Founded in Rome in 1945,[1] it is known for its bespoke men's suits, sartorial ready-to-wear collections and leather goods. Throughout its history, the company has invented concepts such as the men's runway show, the trunk show, and the ready-to-wear Haute Couture.",
     "title": "brioni",
     "url": "https://drive.google.com/uc?export=view&id=1ygoFRVeZymamLAwVqFBPXu1qSZ8XB_To"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "burton",
-    "url": "https://drive.google.com/uc?export=view&id=1mDqAvCV-wZH-KMB5GXwucynmJjL8bBjL"
-  },
-  {
-    "category": "fashion_and_clothing",
-    "description": "",
-    "title": "calvin",
+    "description": "Calvin Klein Inc. (/klaɪn/) is an American fashion house established in 1968. It specializes in leather, lifestyle accessories, home furnishings, perfumery, jewellery, watches and ready-to-wear. The company has substantial market share in retail and commercial lines as well haute couture garments.\n\nThe company was founded by designer Calvin Klein and his childhood friend, Barry K. Schwartz. The company is headquartered in Midtown Manhattan, New York City.",
+    "title": "Calvin Klein",
     "url": "https://drive.google.com/uc?export=view&id=1D-Np3iNsKjeSwCWR8D6Gg587ZVIXKpU5"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Champion (or alternatively also stylized as Champion U.S.A.) is an American manufacturer of clothing, specializing in sportswear. The brand is a subsidiary of Hanesbrands (based in Winston-Salem, North Carolina), which was spun off by the Sara Lee Corporation in 2006. The company was originally based in Rochester, New York, prior to its acquisition by Sara Lee in 1989.[2]\n\nProducts manufactured and commercialised by Champion include casual wear clothing (t-shirts, hoodies, sweatpants, leggings, shorts, jackets, undergarment), footwear (sandals, sneakers, socks), and accessories (bags, hats, collectibles).",
     "title": "champion",
     "url": "https://drive.google.com/uc?export=view&id=1d7PAJ9aOcOLBooYMPZL5-1NR34rew6y3"
   },
@@ -631,19 +607,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "christian",
-    "url": "https://drive.google.com/uc?export=view&id=1NZtiWFqTYoP2zPyhGysJ0R4piTeb7jZs"
-  },
-  {
-    "category": "fashion_and_clothing",
-    "description": "",
-    "title": "claiborne",
-    "url": "https://drive.google.com/uc?export=view&id=1SdRvRE7LBsqeUzHiWs6iFd5prjd7gkCc"
-  },
-  {
-    "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Converse /ˈkɒnvərs/ is an North American shoe company that designs, distributes, and licenses sneakers, skating shoes, lifestyle brand footwear, apparel, and accessories. Founded in 1908, it has been a subsidiary of Nike, Inc. since 2003.[2]\n\nDuring World War II, Converse shifted its manufacturing to make footwear for the military. It was one of the few producers of athletic shoes and for over a half century the company dominated the American court shoe market. From the 1970s, the company lost its dominant position as competitors presented their own styles.",
     "title": "converse",
     "url": "https://drive.google.com/uc?export=view&id=197nCqUVz4J_isGJ1BrAI8CxexldDWGn9"
   },
@@ -655,20 +619,20 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Diesel S.p.A. is an Italian retail clothing company, located in Breganze, Italy. It sells denim, and other clothing, footwear, and accessories. The clothing line has two different brands: Diesel and Diesel Black Gold. There is also a line for children, called Diesel Kid. The company is known for its surreal advertising campaigns.\n\nThe Diesel branded luxury fragrance line is owned and produced by L'Oréal.",
     "title": "diesel",
     "url": "https://drive.google.com/uc?export=view&id=1XasACSCVaJXSq8e4jTbhk-nCHnw-qMvd"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Dockers is an American brand of garments and other accessories from Levi Strauss & Co.\n\nLevi Strauss & Co., then specializing in denim, introduced the Dockers brand in 1986. Dockers became a leading brand of business casual clothing for men under the leadership of Bob Siegel. In 1987, Dockers introduced a women's line. In 1993 the Dockers brand was introduced into Europe under the leadership of Joe Middleton.\n\nDockers makes belts, pants, leather wallets, shoes and other apparel.",
     "title": "dockers",
     "url": "https://drive.google.com/uc?export=view&id=1pe5ZoV0hJBT0Xb35lYbyrfIl5nsyeJs5"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "dolce",
+    "description": "Dolce & Gabbana (Italian pronunciation: [ˈdoltʃe e ɡɡabˈbaːna]) is an Italian luxury fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana.\n\nThe two met in Milan in 1980 and designed for the same fashion house. In 1982, they established a designer consulting studio; in time it grew to become \"Dolce & Gabbana\". They presented their first women's collection in 1985 in Milan, where a year later their store would open its doors.",
+    "title": "Dolce & Gabbana",
     "url": "https://drive.google.com/uc?export=view&id=1_87bjaQ2qzLPJlD1f6FSVlDDqPeF-KaN"
   },
   {
@@ -679,7 +643,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "ECCO Sko A/S is a Danish shoe manufacturer and retailer founded in 1963 by Karl Toosbuy, in Bredebro, Denmark. The company began with only the production of footwear, but has since expanded into leather production, as well as accessories and small leather goods. ECCO opened its first retail store in Denmark in 1982. ECCO’s products are sold in 99 countries from over 2,250 ECCO shops and more than 14,000 sales points. ECCO is family-owned, founded in Denmark in 1963, and employs 21,300 people worldwide.",
     "title": "ecco",
     "url": "https://drive.google.com/uc?export=view&id=1YVR4jX8cX8A0admaFb6kYw4-cPUvQs7n"
   },
@@ -703,7 +667,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Energie was founded in 1989 with the desire to create something new, different, and original. Mission accomplished! Today they are known worldwide for their strong personality and capacity to combine vintage aesthetics and urban designs. Always looking for new trends and unique concepts since their foundation, they now design accessories and trendy shoes. The brand is part of the Sixty group, the fashion specialist for more than 20 years.",
     "title": "energie",
     "url": "https://drive.google.com/uc?export=view&id=1J2oebAQBTwvakstLze2Y1sVEawMT9iB-"
   },
@@ -715,7 +679,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Fila Holdings Corp. (d/b/a Fila) is a sportswear manufacturer that designs shoes and apparel founded by Ettore and Giansevero Fila in 1911 in Biella, Piedmont, Italy. In 2003, it was sold to United States-based Sports Brand International. And subsequently in 2007, it was sold to Fila Korea, its South Korean division. In September 2010, it launched its initial public offering on the Korea Exchange.",
     "title": "fila",
     "url": "https://drive.google.com/uc?export=view&id=1r196BUPpgfhnwsKpnkcAVdGPDOxMuQM2"
   },
@@ -745,14 +709,14 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "gianni",
+    "description": "Gianni Versace S.r.l. (Italian pronunciation: [ˈdʒanni verˈsaːtʃe]),[a] usually referred to simply as Versace, is an Italian luxury fashion company and trade name founded by Gianni Versace in 1978. The main collection of the brand is Versace, which produces upmarket Italian-made ready-to-wear and leather accessories. The Versace logo is the head of Medusa, a Greek mythological figure. The logo came from the floor of ruins in the area of Reggio Calabria that the Versace siblings played in as children. Gianni Versace chose Medusa as the logo because she made people fall in love with her and they had no way back. He hoped his company would have the same effect on people and on those who wore his clothes and shoes.\n\nThe Versace brand is known for its innovative designs having symbolic flashy prints and bright colors but with style. The company announced in 2018 that it would stop using fur in its collections.",
+    "title": "Versace",
     "url": "https://drive.google.com/uc?export=view&id=1TPTD4yPnYNGUQOqyCWpvDEbhdDUrJkd9"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "giorgio",
+    "description": "Giorgio Armani S.p.A. (pronounced [ˈdʒordʒo arˈmaːni]), commonly known as Armani, is an Italian luxury fashion house founded by Giorgio Armani which designs, manufactures, distributes and retails haute couture, ready-to-wear, leather goods, shoes, watches, jewelry, accessories, eyewear, cosmetics and home interiors. The brand markets these products under several labels: Giorgio Armani Privé, Giorgio Armani, Armani Collezioni, Emporio Armani (including EA7), Armani Jeans, Armani Junior, and Armani Exchange.",
+    "title": "Armani",
     "url": "https://drive.google.com/uc?export=view&id=1CzkoycOkwDz8tlsYye2_LmHyi0-s4bln"
   },
   {
@@ -763,14 +727,14 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Guess (styled as GUESS or Guess?) is an American clothing brand and retailer. In addition to clothing for both men and women, Guess markets other fashion accessories such as watches, jewelry, perfumes, bags and shoes.",
     "title": "guess",
     "url": "https://drive.google.com/uc?export=view&id=1SYr6GfVAt9a4zPX9U4WVue9KMzvR5yXH"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "helly",
+    "description": "Helly Hansen is a Norwegian producer of textiles and gear for sports and work on the ocean and in the mountains, headquartered in Oslo, Norway. From its founding in 1877 until October 2009, the company was headquartered in Moss, Norway.",
+    "title": "Helly Hansen",
     "url": "https://drive.google.com/uc?export=view&id=1bGOWtr2sgvvhqsVvzIEbTzXAoW5xkATN"
   },
   {
@@ -799,7 +763,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Jordache Enterprises, Inc. is an American clothing company that markets apparel including shirts, jeans, and outerwear. The brand is known for its designer jeans that were popular in the late 1970s and early 1980s. Since the 2000s, Jordache has also diversified into real estate in the United States and other ventures in Israel. The brand name Jordache is a contraction of Joe, Ralph, David, and Avi Naccache (Nakash).",
     "title": "jordache",
     "url": "https://drive.google.com/uc?export=view&id=1ANQ97g8cAOGbjBXTaTXu8QcJaS7GzKQO"
   },
@@ -811,8 +775,8 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "la",
+    "description": "La Perla is an Italian luxury lifestyle company owned by German entrepreneur Lars Windhorst through Sapinda Group.\n\nFounded by couturière Ada Masotti in Bologna in 1954, La Perla is one of few historical fashion houses with a woman founder. Ada Masotti was trained as a corset-maker.",
+    "title": "La Perla",
     "url": "https://drive.google.com/uc?export=view&id=1k1Z4RgMvX55wgB641RQvDtGcq4gp8t68"
   },
   {
@@ -823,8 +787,8 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "land",
+    "description": "Lands' End is an American clothing and home decor retailer founded in 1963 and based in Dodgeville, Wisconsin, that specializes in casual clothing, luggage, and home furnishings. The majority of the company's business is conducted through mail order and Internet sales, but the company also has retail stores, primarily in the Upper Midwest, along with international shops in the UK, Germany, Japan, France and Austria.",
+    "title": "Lands' End",
     "url": "https://drive.google.com/uc?export=view&id=13qrpnmoVSm_QOn8y67aw2wwdO4FUsc3i"
   },
   {
@@ -841,14 +805,14 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Lee is an American brand of denim jeans, first produced in 1889 in Salina, Kansas. The company is owned by Kontoor Brands, a spin-off of VF Corporation's Jeans wear Division. Its headquarters is currently in Greensboro, North Carolina. The company states that they are an international retailer and manufacturer of casual wear and work wear and that they have more than 400 employees in the United States. In Australasia, the brand is owned by Pacific Brands since 2007, after it was acquired from Yakka.",
     "title": "lee",
     "url": "https://drive.google.com/uc?export=view&id=1Kvdrw9iyoAKsUzRKk0jH_QBOzbYcK0Ma"
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
-    "title": "levi",
+    "description": "Levi Strauss & Co. (/ˌliːvaɪ ˈstraʊs/) is an American clothing company known worldwide for its Levi's (/ˈliːvaɪz/) brand of denim jeans. It was founded in May 1853 when German immigrant Levi Strauss moved from Buttenheim, Bavaria, to San Francisco, California to open a west coast branch of his brothers' New York dry goods business. The company's corporate headquarters is located in Levi's Plaza in San Francisco.",
+    "title": "Levi Strauss & Co.",
     "url": "https://drive.google.com/uc?export=view&id=1Ze02DIQbCgMTOKRtkjhdRPQX529C8ZCk"
   },
   {
@@ -919,7 +883,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "OshKosh B'gosh is an American children's apparel company founded in Oshkosh, Wisconsin, in 1895. It is a subsidiary of Carter's.\n\nOshKosh B'Gosh was originally founded in 1895 as Grove Manufacturing Company, a small-town manufacturer of adult work clothing.",
     "title": "oshkosh",
     "url": "https://drive.google.com/uc?export=view&id=18d39qc3ECs3LkxdUpfE_akqpup-v7tIh"
   },
@@ -937,7 +901,7 @@
   },
   {
     "category": "fashion_and_clothing",
-    "description": "",
+    "description": "Pepe Jeans London is a denim and casual wear jeans brand established in the Portobello Road area of London in 1973, and now based in Sant Feliu de Llobregat, Spain.\n\nCarlos Ortega was the CEO, and owns more than 20% of the company.",
     "title": "pepe",
     "url": "https://drive.google.com/uc?export=view&id=1MOusJdJ6mVAD7MupoRNWhE2AvjmcirjJ"
   },
@@ -1033,13 +997,13 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "bit",
+    "description": "Bitburger brewery (Bitburger Brauerei Th. Simon GmbH) is a large German brewery founded in 1817 by Johann Wallenborn. Bitburger is headquartered in Bitburg, Rhineland-Palatinate, Germany.",
+    "title": "Bitburger",
     "url": "https://drive.google.com/uc?export=view&id=1QmDTIxXNq7DgzgRp0ud78bmvj2VXHc9B"
   },
   {
     "category": "food_and_beverage",
-    "description": "",
+    "description": "Bojangles Inc. is an American regional chain of fast food restaurants, specializing in cajun-seasoned fried chicken, and buttermilk biscuits that primarily serves the Southeastern United States. The company was founded in Charlotte, North Carolina, in 1977 by Jack Fulk and Richard Thomas.",
     "title": "bojangles",
     "url": "https://drive.google.com/uc?export=view&id=1eFIVHmsaaVuKCFhIN8lsorj-l9-IJDyq"
   },
@@ -1051,8 +1015,8 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "boston",
+    "description": "Boston Pizza (BP), also known as Boston's The Gourmet Pizza Restaurant and Sports Bar, is a Canadian multinational restaurant chain that owns and franchises locations in Canada, the United States and Mexico.",
+    "title": "Boston Pizza",
     "url": "https://drive.google.com/uc?export=view&id=1HjArwry6JQGr6rph1TFFJb9npQ2ugIy0"
   },
   {
@@ -1087,21 +1051,9 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "burger",
+    "description": "Burger King (BK) is an American multinational chain of hamburger fast food restaurants. Headquartered in Miami-Dade County, Florida, the company was founded in 1953 as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. \n Burger King's menu has expanded from a basic offering of burgers, French fries, sodas, and milkshakes to a larger and more diverse set of products.\nIn 1957, the \"Whopper\" became the first major addition to the menu, and it has become Burger King's signature product since",
+    "title": "Burger King",
     "url": "https://drive.google.com/uc?export=view&id=1O-VZ1PTebYP37NNUM8GR9jO-AIBSeUuk"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "",
-    "title": "calif",
-    "url": "https://drive.google.com/uc?export=view&id=1cf50jUbzI1tp0cxXLpcbGLLzfPLo3dbg"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "California is a state in the Pacific Region of the United States of America. With 39.5 million residents across a total area of about 163,696 square miles (423,970 km2), California is the most populous U.S. state and the third-largest by area, and is also the world's thirty-fourth most populous subnational entity. California is also the most populated subnational entity in North America, and has its state capital in Sacramento. The Greater Los Angeles area and the San Francisco Bay Area are the nation's second- and fifth-most populous urban regions, with 18.7 million and 9.7 million residents respectively. Los Angeles is California's most populous city, and the country's second-most populous, after New York City. California also has the nation's most populous county, Los Angeles County, and its largest county by area, San Bernardino County. The City and County of San Francisco is both the country's second most densely populated major city after New York City and the fifth most densely populated county, behind only four of the five New York City boroughs.\nCalifornia's economy, with a gross state product of $3.0 trillion, is the largest sub-national economy in the world. If it were a country, California would be the fifth-largest economy in the world, and the 37th-most populous as of 2020. The Greater Los Angeles area and the San Francisco Bay Area are the nation's second- and third-largest urban economies ($1.3 trillion and $1.0 trillion respectively as of 2020), after the New York metropolitan area ($2.0 trillion). The San Francisco Bay Area Combined Statistical Area had the nation's highest gross domestic product per capita in 2018 ($106,757) among large primary statistical areas, and is home to four of the world's ten largest companies by market capitalization and four of the world's ten richest people.California is considered a global trendsetter in popular culture, communication, information, innovation, environmentalism, economics, politics, and entertainment. As a result of the state's diversity and migration, California integrates foods, languages, and traditions from other areas across the country and around the globe. It is considered the origin of the American film industry, the hippie counterculture, fast food, beach and car culture, the Internet, and the personal computer, among others. The San Francisco Bay Area and the Greater Los Angeles Area are widely seen as centers of the global technology and entertainment industries, respectively. California's economy is very diverse: 58% of it is based on finance, government, real estate services, technology, and professional, scientific, and technical business services. Although it accounts for only 1.5% of the state's economy, California's agriculture industry has the highest output of any U.S. state.California shares a border with Oregon to the north, Nevada and Arizona to the east, and the Mexican state of Baja California to the south. The state's diverse geography ranges from the Pacific Coast in the west to the Sierra Nevada mountain range in the east, and from the redwood and Douglas fir forests in the northwest to the Mojave Desert in the southeast. The Central Valley, a major agricultural area, dominates the state's center. Although California is well-known for its warm Mediterranean climate and monsoon seasonal weather, the large size of the state results in climates that vary from moist temperate rainforest in the north to arid desert in the interior, as well as snowy alpine in the mountains. All these factors lead to an enormous demand for water; in total numbers, California is the largest consumer of water in North America. Over time, drought and wildfires have become more frequent; further straining California's water security.What is now California was first settled by various Native Californian tribes before being explored by a number of Europeans during the 16th and 17th centuries. The Spanish Empire then claimed and colonized it. In 1804 it was included in Alta California province, within the Viceroyalty of New Spain. The area became a part of Mexico in 1821 following its successful war for independence but was ceded to the United States in 1848 after the Mexican\u2013American War. The western portion of Alta California was then organized and admitted as the 31st state on September 9, 1850. The California Gold Rush starting in 1848 led to dramatic social and demographic changes, with large-scale emigration from the east and abroad with an accompanying economic boom.",
-    "title": "california",
-    "url": "https://drive.google.com/uc?export=view&id=1EsmnwCH40XqHEKtok1PbZPz0wewcOzDd"
   },
   {
     "category": "food_and_beverage",
@@ -1111,7 +1063,7 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
+    "description": "Carl's Jr. Restaurants LLC is an American fast food restaurant chain operated by CKE Restaurant Holdings, Inc., with franchisees in Australia, the United States, Canada, Asia, Latin America, Africa, and Europe.",
     "title": "carls",
     "url": "https://drive.google.com/uc?export=view&id=1p6AANMqAYJjQvVhvtGImYuZaxOfISOdu"
   },
@@ -1129,8 +1081,8 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "chucke",
+    "description": "Chuck E. Cheese is a chain of American family restaurants. The chain is the primary brand of CEC Restaurant, Inc. and is headquartered in Irving, Texas. The establishment serves pizza and other menu items, complemented by arcade games, amusement rides, and animatronic displays as a focus of family entertainment. The restaurant's name is taken from its main character and mascot Chuck E. Cheese.",
+    "title": "Chuck E. Cheese",
     "url": "https://drive.google.com/uc?export=view&id=1XEmjI0R14zl9clr2_RkdfXTDQAmhNcDp"
   },
   {
@@ -1147,15 +1099,9 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "coca",
+    "description": "Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton and was bought out by businessman Asa Griggs Candler, whose marketing tactics led Coca-Cola to its dominance of the world soft-drink market throughout the 20th century. The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a trade secret; however, a variety of reported recipes and experimental recreations have been published.",
+    "title": "Coca-Cola",
     "url": "https://drive.google.com/uc?export=view&id=1_tx3SRUootZx7MyioFqR6TFBM81cSwon"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. When coffee berries turn from green to bright red in color \u2013 indicating ripeness \u2013 they are picked, processed, and dried. Dried coffee seeds (referred to as \"beans\") are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and then brewed with near-boiling water to produce the beverage known as coffee.\nCoffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world, and can be prepared and presented in a variety of ways (e.g., espresso, French press, caff\u00e8 latte, or already-brewed canned coffee). It is usually served hot, although chilled or iced coffee is common. Sugar, sugar substitutes, milk or cream are often used to lessen the bitter taste. \nClinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.The earliest credible evidence of coffee-drinking as the modern beverage appears in modern-day Yemen in southern Arabia in the middle of the 15th century in Sufi shrines where coffee seeds were first roasted and brewed in a manner similar to how it is now prepared for drinking. The Yemenis procured the coffee beans from the Ethiopian Highlands via coastal Somali intermediaries, and began cultivation. By the 16th century, the drink had reached the rest of the Middle East and North Africa, later spreading to Europe.\nThe two most commonly grown coffee bean types are C. arabica and C. robusta. Coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, the Indian subcontinent, and Africa. As of 2018, Brazil was the leading grower of coffee beans, producing 35% of the world total. Coffee is a major export commodity as the leading legal agricultural export for numerous countries. It is one of the most valuable commodities exported by developing countries. Green, unroasted coffee is one of the most traded agricultural commodities in the world. The way developed countries trade coffee with developing nations has been criticised, as well as the impact on the environment with regards to the clearing of land for coffee-growing and water use. Consequently, the markets for fair trade and organic coffee are expanding.",
-    "title": "coffee",
-    "url": "https://drive.google.com/uc?export=view&id=1cKDot6-7gBowmtmA9M2KHS7JRRowCGID"
   },
   {
     "category": "food_and_beverage",
@@ -1183,50 +1129,26 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "Coop, COOP or Co-op usually refers to:\n\nA chicken coop or other enclosure\nCooperative (\"coop\") or co-operative (\"co-op\"), an association of persons who cooperate for their mutual social, economic, and cultural benefit\nHousing cooperative, e.g., a co-op apartment in a co-op apartment building\nBuilding cooperative\nFood cooperative or \"food co-op\"\nPrison, in slang\nCooperative gameplay in video games\nCo-operative board gameCoop, COOP or Co-op may also refer to:",
-    "title": "coop",
-    "url": "https://drive.google.com/uc?export=view&id=1WdzQvEPTASzxVAcle8GJqqHHwTDUhaSM"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "",
-    "title": "crock",
-    "url": "https://drive.google.com/uc?export=view&id=1av6IOQn2Vm-6JNI8aCnye409mCJSyjs2"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "",
+    "description": "Crowley Foods (legal name Crowley Foods LLC) is an American dairy company formerly based in Binghamton, New York. It has been a subsidiary of HP Hood LLC since being purchased by the company in 2004, which is headquartered in Lynnfield, Massachusetts.[1][2] Products provided by the company include milk, half and half, cream, cottage cheese, sour cream and yogurt.",
     "title": "crowley",
     "url": "https://drive.google.com/uc?export=view&id=1rWfqQD9MLwndIpsF2Thk0tuPWTZDbPaw"
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "cub",
-    "url": "https://drive.google.com/uc?export=view&id=1n2Z_Moi7M_9I1sFxYTDSOSMvKmgKuHTM"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "A dairy is a business enterprise established for the harvesting or processing (or both) of animal milk \u2013 mostly from cows or buffaloes, but also from goats, sheep, horses, or camels \u2013 for human consumption. A dairy is typically located on a dedicated dairy farm or in a section of a multi-purpose farm (mixed farm) that is concerned with the harvesting of milk.\nAs an attributive, the word dairy refers to milk-based products, derivatives and processes, and the animals and workers involved in their production: for example dairy cattle, dairy goat. A dairy farm produces milk and a dairy factory processes it into a variety of dairy products. These establishments constitute the global dairy industry, a component of the food industry.",
-    "title": "dairy",
-    "url": "https://drive.google.com/uc?export=view&id=1fdPJnm4e4RBPtHFjGmfKRm1dK9KGe6Dv"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "",
+    "description": "Dean Foods is an American food and beverage company and the largest dairy subsidiary company in the United States. Headquartered in Dallas, Texas, the company maintains plants and distributors in the United States. Dean Foods has 66 manufacturing facilities in 32 U.S. states and distributes its products across all 50. Its 58 brands include DairyPure, Land O'Lakes (Licensed), TruMoo, Friendly's, Mayfield, Dean's, Meadow Gold, Tuscan, T.G.Lee and Alta Dena. In November 2019, the company filed for Chapter 11 bankruptcy citing the decline in consumption of cow's milk and the growth in demand of plant milk.",
     "title": "dean",
     "url": "https://drive.google.com/uc?export=view&id=170PPazrN-IDqEcpsKUWWh4615dq4_qGJ"
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "del",
+    "description": "Del Taco Restaurants Inc. is an American fast food restaurant chain which specializes in American-style Mexican cuisine as well as American foods such as burgers, fries, and shakes. Del Taco is led by CEO John D. Cappasola, Jr., and is headquartered in Lake Forest, California.",
+    "title": "Del Taco",
     "url": "https://drive.google.com/uc?export=view&id=1fS4eS4MMWxBGK2au1sgA9LrCGn_QK2fS"
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "diedrich",
+    "description": "Diedrich Coffee is a coffee company based in Irvine, CA. Its first coffee house in Orange County, California, was opened in 1972. It owns the American mall-based stores for Gloria Jean's Coffees. In Oregon, it previously ran Coffee People until nearly every location was bought and closed or converted into a Starbucks (Diedrich retained ownership of the Coffee People locations inside the Portland International Airport.)",
+    "title": "Diedrich Coffee",
     "url": "https://drive.google.com/uc?export=view&id=1WyGrE_8HXdejp6H5bTaJCWp0cXZgZmr9"
   },
   {
@@ -1255,8 +1177,8 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "dominos",
+    "description": "Domino's Pizza, Inc., branded as Domino's, is an American multinational pizza restaurant chain founded in 1961. The corporation is Delaware-domiciled and headquartered at the Domino's Farms Office Park in Ann Arbor, Michigan",
+    "title": "Domino's Pizza",
     "url": "https://drive.google.com/uc?export=view&id=1PYFLYA1RxxDHiWc3EcXunGmtGt-GxH_F"
   },
   {
@@ -1264,12 +1186,6 @@
     "description": "Donatos Pizza is a pizza delivery restaurant franchisor headquartered in Gahanna, Ohio, United States. It has nearly 200 locations in ten states, with the majority of locations in Ohio. Donatos is also served at several venue outlets including Ohio Stadium and the Smithsonian National Air and Space Museum.\n\n",
     "title": "donatos",
     "url": "https://drive.google.com/uc?export=view&id=1zQFrsX8B3FuaruZzax_6ctxbZ8ZUAutM"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "",
-    "title": "doskocil",
-    "url": "https://drive.google.com/uc?export=view&id=1vE3R59V-BduT2t0YQpw0qjgKw9eCPxxB"
   },
   {
     "category": "food_and_beverage",
@@ -1303,8 +1219,8 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "",
-    "title": "eureka",
+    "description": "Eureka Pizza was started in Fayetteville in early 1992 by a recent college grad named Rolf Wilkin. Rolf walked into a failing pizzeria to sell an ad in his student coupon book. After being informed the restaurant was closing, he saw opportunity! ",
+    "title": "Eureka Pizza",
     "url": "https://drive.google.com/uc?export=view&id=18nli3Ch3Pe27mB933Vlfn2QPnyJLeQWw"
   },
   {
@@ -1312,12 +1228,6 @@
     "description": "",
     "title": "extra",
     "url": "https://drive.google.com/uc?export=view&id=1IH4JTbLl6WWLzwftkE1CMkjvdzMSBXbG"
-  },
-  {
-    "category": "food_and_beverage",
-    "description": "A farm is an area of land that is devoted primarily to agricultural processes with the primary objective of producing food and other crops; it is the basic facility in food production. The name is used for specialised units such as arable farms, vegetable farms, fruit farms, dairy, pig and poultry farms, and land used for the production of natural fibres, biofuel and other commodities. It includes ranches, feedlots, orchards, plantations and estates, smallholdings and hobby farms, and includes the farmhouse and agricultural buildings as well as the land. In modern times the term has been extended so as to include such industrial operations as wind farms and fish farms, both of which can operate on land or sea.\nFarming originated independently in different parts of the world, as hunter gatherer societies transitioned to food production rather than food capture. It may have started about 12,000 years ago with the domestication of livestock in the Fertile Crescent in western Asia, soon to be followed by the cultivation of crops. Modern units tend to specialise in the crops or livestock best suited to the region, with their finished products being sold for the retail market or for further processing, with farm products being traded around the world.\nModern farms in developed countries are highly mechanized. In the United States, livestock may be raised on rangeland and finished in feedlots and the mechanization of crop production has brought about a great decrease in the number of agricultural workers needed. In Europe, traditional family farms are giving way to larger production units. In Australia, some farms are very large because the land is unable to support a high stocking density of livestock because of climatic conditions. In less developed countries, small farms are the norm, and the majority of rural residents are subsistence farmers, feeding their families and selling any surplus products in the local market.",
-    "title": "farm",
-    "url": "https://drive.google.com/uc?export=view&id=1XDww1v4GLmKXP4uaJdyhENaMCiJRk3AI"
   },
   {
     "category": "food_and_beverage",
@@ -1807,8 +1717,8 @@
   },
   {
     "category": "food_and_beverage",
-    "description": "A taco (US: , UK: , Spanish: [\u02c8tako]) is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling. The tortilla is then folded around the filling and eaten by hand. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, beans, vegetables, and cheese, allowing for great versatility and variety. They are often garnished with various condiments, such as salsa, guacamole, or sour cream, and vegetables, such as lettuce, onion, tomatoes, and chiles. Tacos are a common form of antojitos, or Mexican street food, which have spread around the world.\nTacos can be contrasted with similar foods such as burritos, which are often much larger and rolled rather than folded; taquitos, which are rolled and fried; or chalupas/tostadas, in which the tortilla is fried before filling.",
-    "title": "taco",
+    "description": "Taco Bell is an American-based chain of fast food restaurants originating in Irvine, California in 1962, by founder Glen Bell. Taco Bell is a subsidiary of Yum! Brands, Inc. The restaurants serve a variety of Mexican-inspired foods, that include: tacos, burritos, quesadillas, nachos, novelty and specialty items, along with a variety of \"value menu\" items. As of 2018, Taco Bell serves over two billion customers each year, at 7,072 restaurants, more than 93 percent of which are owned and operated by independent franchisees and licensees.\n\nPepsiCo purchased Taco Bell in 1978, and later spun off its restaurants division as Tricon Global Restaurants, which later changed its name to Yum! Brands.",
+    "title": "Taco Bell",
     "url": "https://drive.google.com/uc?export=view&id=1HuDZtR4Ev4Ve4XaDlTU9ceE848DHYp-K"
   },
   {
