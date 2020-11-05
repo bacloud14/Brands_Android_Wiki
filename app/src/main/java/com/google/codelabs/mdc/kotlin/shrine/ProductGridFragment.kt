@@ -37,8 +37,6 @@ class ProductGridFragment : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment with the ProductGrid theme
-//        context?.theme?.applyStyle(R.style.Theme_Shrine_Autumn, true)
         val view = inflater.inflate(R.layout.shr_product_grid_fragment, container, false)
 
         // Set up the tool bar
@@ -82,27 +80,17 @@ class ProductGridFragment : Fragment() {
     override fun onPrepareOptionsMenu(menu: Menu) {
         super.onPrepareOptionsMenu(menu)
         val search = menu.findItem(R.id.search)
-//        item.setOnMenuItemClickListener (object : MenuItem.OnMenuItemClickListener {
-//            override fun onMenuItemClick(p0: MenuItem?): Boolean {
-//                isSearch = true
-//                println("isSearch $isSearch")
-//                return true
-//            }
-//        })
         search.setOnActionExpandListener(object : MenuItem.OnActionExpandListener {
             override fun onMenuItemActionExpand(menuItem: MenuItem?): Boolean {
                 isSearch = true
-                println("isSearch $isSearch")
                 return true
             }
 
             override fun onMenuItemActionCollapse(menuItem: MenuItem?): Boolean {
                 isSearch = false
-                println("isSearch $isSearch")
                 return true
             }
         })
-
         var vwSearch = search.actionView as SearchView
         vwSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
@@ -119,9 +107,9 @@ class ProductGridFragment : Fragment() {
             }
         })
 
-        vwSearch.setOnCloseListener(SearchView.OnCloseListener { //Do something on collapse Searchview
+        vwSearch.setOnCloseListener { //Do something on collapse Searchview
             false
-        })
+        }
 
     }
 

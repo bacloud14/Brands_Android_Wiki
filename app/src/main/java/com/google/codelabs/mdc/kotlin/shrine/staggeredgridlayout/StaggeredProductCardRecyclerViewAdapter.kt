@@ -1,7 +1,6 @@
 package com.google.codelabs.mdc.kotlin.shrine.staggeredgridlayout
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
@@ -30,24 +29,16 @@ class StaggeredProductCardRecyclerViewAdapter(private val productList: List<Prod
         } else if (viewType == 2) {
             layoutId = R.layout.shr_staggered_product_card_third
         }
-
         val layoutView = LayoutInflater.from(parent.context).inflate(layoutId, parent, false)
-
-        var cardViewHolder = StaggeredProductCardViewHolder(layoutView)
-
-        return cardViewHolder
+        return StaggeredProductCardViewHolder(layoutView)
     }
 
     override fun onBindViewHolder(holder: StaggeredProductCardViewHolder, position: Int) {
-        holder.itemView.setOnClickListener(View.OnClickListener {
+        holder.itemView.setOnClickListener {
             var activity: AppCompatActivity = it.context as AppCompatActivity
-
             MainActivity.currentProduct = list!![position]
-//            activity.supportFragmentManager.beginTransaction().replace(R.id.product_card_fragment, productCardDetailFragment).addToBackStack(null).commit()
-            (activity as NavigationHost).navigateTo(ProductCardDetailFragment(), false) // Navigate to the next Fragment
-
-//            activity.supportFragmentManager.beginTransaction().replace(R.id.product_grid_fragment, productGridFragment).addToBackStack(null).commit()
-        })
+            (activity as NavigationHost).navigateTo(ProductCardDetailFragment(), true) // Navigate to the next Fragment
+        }
         if (list != null && position < list!!.size) {
             val product = list!![position]
             holder.productTitle.text = product.title.capitalize()

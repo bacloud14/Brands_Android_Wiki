@@ -13,36 +13,22 @@ import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
 import kotlinx.android.synthetic.main.shr_product_card_fragment.view.*
 
 class ProductCardDetailFragment : Fragment() {
-    private lateinit var navigationIconClickListener: NavigationIconClickListener2
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
-        println("onCreate")
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        println("onCreateView")
-        println(MainActivity.currentPosition)
-        println(MainActivity.currentProduct.title)
 //        context?.theme?.applyStyle(R.style.Theme_Shrine, true)
         val view = inflater.inflate(R.layout.shr_product_card_fragment, container, false)
         // Set up the tool bar
         (activity as AppCompatActivity).setSupportActionBar(view.app_bar2)
-        // Set cut corner background for API 23+
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-//            view.itt.background = context?.getDrawable(R.drawable.shr_product_grid_background_shape)
-//        }
         view.product_title2.text = MainActivity.currentProduct.title.capitalize()
         view.brand.text = MainActivity.currentProduct.title.capitalize()
         view.product_description.text = MainActivity.currentProduct.description
         view.product_description.movementMethod = ScrollingMovementMethod()
-//        navigationIconClickListener = NavigationIconClickListener2(
-//                activity!!,
-//                ContextCompat.getDrawable(context!!, R.drawable.shr_branded_menu), // Menu open icon
-//                ContextCompat.getDrawable(context!!, R.drawable.shr_close_menu))
-//        view.app_bar2.setNavigationOnClickListener(navigationIconClickListener) // Menu close icon
         view.app_bar2.setNavigationOnClickListener {
-            (activity as NavigationHost).navigateTo(ProductGridFragment(), false)
+            (activity as NavigationHost).navigateTo(ProductGridFragment(), true)
         }
 
         return view /* super.onCreateView(inflater, container, savedInstanceState)*/
