@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import android.graphics.Rect
 import android.view.View

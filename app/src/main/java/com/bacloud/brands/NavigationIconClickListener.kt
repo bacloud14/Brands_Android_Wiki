@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -9,15 +9,17 @@ import android.util.DisplayMetrics
 import android.view.View
 import android.view.animation.Interpolator
 import android.widget.ImageView
-import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
+import androidx.appcompat.widget.Toolbar
+import com.bacloud.brands.network.ProductEntry
+import com.google.codelabs.mdc.kotlin.shrine.R
 
 /**
  * [android.view.View.OnClickListener] used to translate the product grid sheet downward on
  * the Y-axis when the navigation icon in the toolbar is pressed.
  */
 class NavigationIconClickListener @JvmOverloads internal constructor(
-        private val context: Context, private val sheet: View, private val interpolator: Interpolator? = null,
-        private val openIcon: Drawable? = null, private val closeIcon: Drawable? = null) : View.OnClickListener {
+        private val context: Context, private val sheet: View, private val toolbar: Toolbar,
+        private val interpolator: Interpolator? = null, private val openIcon: Drawable? = null, private val closeIcon: Drawable? = null) : View.OnClickListener {
 
     private val animatorSet = AnimatorSet()
     private val height: Int
@@ -56,7 +58,8 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
             if (view !is ImageView) {
                 theList = ProductEntry.initProductEntryList(ProductGridFragment.productGridFragmentResources, category = view.tag as String, query = "all", limit = 0, random = false)
                 ProductGridFragment.adapter.replaceList(theList)
-
+                toolbar.title = (view.tag as String).replace("_", " ").capitalize()
+//                toolbar.logo =
                 return
 //                throw IllegalArgumentException("updateIcon() must be called on an ImageView")
             }

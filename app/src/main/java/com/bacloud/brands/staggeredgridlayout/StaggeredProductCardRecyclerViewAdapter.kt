@@ -1,15 +1,15 @@
-package com.google.codelabs.mdc.kotlin.shrine.staggeredgridlayout
+package com.bacloud.brands.staggeredgridlayout
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.google.codelabs.mdc.kotlin.shrine.MainActivity
-import com.google.codelabs.mdc.kotlin.shrine.NavigationHost
-import com.google.codelabs.mdc.kotlin.shrine.ProductCardDetailFragment
+import com.bacloud.brands.MainActivity
+import com.bacloud.brands.NavigationHost
+import com.bacloud.brands.ProductCardDetailFragment
 import com.google.codelabs.mdc.kotlin.shrine.R
-import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
-import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
+import com.bacloud.brands.network.ImageRequester
+import com.bacloud.brands.network.ProductEntry
 
 /**
  * Adapter used to show an asymmetric grid of products, with 2 items in the first column, and 1

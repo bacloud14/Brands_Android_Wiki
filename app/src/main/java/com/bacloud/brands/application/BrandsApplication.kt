@@ -1,11 +1,11 @@
-package com.google.codelabs.mdc.kotlin.shrine.application
+package com.bacloud.brands.application
 
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
 
-class ShrineApplication : Application() {
+class BrandsApplication : Application() {
     companion object {
-        lateinit var instance: ShrineApplication
+        lateinit var instance: BrandsApplication
             private set
     }
 

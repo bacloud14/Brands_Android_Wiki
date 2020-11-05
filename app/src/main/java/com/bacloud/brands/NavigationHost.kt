@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import androidx.fragment.app.Fragment
 

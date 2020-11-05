@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine.network
+package com.bacloud.brands.network
 
 import android.content.res.Resources
 import android.net.Uri

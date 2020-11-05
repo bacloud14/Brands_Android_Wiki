@@ -7,7 +7,7 @@
 
     <application
 
-        android:name="com.google.codelabs.mdc.kotlin.shrine.application.ShrineApplication"
+        android:name="com.bacloud.brands.application.BrandsApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_brands"
         android:label="@string/shr_app_name"
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shrine.Autumn">
         <activity
-            android:name=".MainActivity"
+            android:name="com.bacloud.brands.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait">
             <intent-filter>

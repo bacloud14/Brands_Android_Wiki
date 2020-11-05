@@ -1,11 +1,12 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
+import com.google.codelabs.mdc.kotlin.shrine.R
+import com.bacloud.brands.network.ImageRequester
 
-import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
+import com.bacloud.brands.network.ProductEntry
 
 /**
  * Adapter used to show a simple grid of products.

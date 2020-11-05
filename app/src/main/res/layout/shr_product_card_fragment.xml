@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     android:clipToPadding="false"
-    tools:context=".ProductCardDetailFragment">
+    tools:context="com.bacloud.brands.ProductCardDetailFragment">
 
     <LinearLayout
         style="@style/Theme.Shrine.Autumn"

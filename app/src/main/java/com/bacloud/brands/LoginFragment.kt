@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import android.content.Intent
 import android.net.Uri
@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.google.codelabs.mdc.kotlin.shrine.R
 import kotlinx.android.synthetic.main.shr_login_fragment.view.*
 
 

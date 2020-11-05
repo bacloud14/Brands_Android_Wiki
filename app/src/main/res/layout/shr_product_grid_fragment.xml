@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     android:clipToPadding="false"
-    tools:context=".ProductGridFragment">
+    tools:context="com.bacloud.brands.ProductGridFragment">
 
     <LinearLayout
         style="@style/Widget.Shrine.Backdrop"

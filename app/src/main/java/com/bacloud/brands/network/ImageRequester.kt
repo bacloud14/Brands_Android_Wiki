@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine.network
+package com.bacloud.brands.network
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -8,7 +8,7 @@ import com.android.volley.RequestQueue
 import com.android.volley.toolbox.ImageLoader
 import com.android.volley.toolbox.NetworkImageView
 import com.android.volley.toolbox.Volley
-import com.google.codelabs.mdc.kotlin.shrine.application.ShrineApplication
+import com.bacloud.brands.application.BrandsApplication
 
 /**
  * Class that handles image requests using Volley.
@@ -19,11 +19,11 @@ object ImageRequester {
     private val maxByteSize: Int
 
     init {
-        val context = ShrineApplication.instance
-        this.requestQueue = Volley.newRequestQueue(context)
-        this.requestQueue.start()
-        this.maxByteSize = calculateMaxByteSize(context)
-        this.imageLoader = ImageLoader(
+        val context = BrandsApplication.instance
+        requestQueue = Volley.newRequestQueue(context)
+        requestQueue.start()
+        maxByteSize = calculateMaxByteSize(context)
+        imageLoader = ImageLoader(
                 requestQueue,
                 object : ImageLoader.ImageCache {
                     private val lruCache = object : LruCache<String, Bitmap>(maxByteSize) {

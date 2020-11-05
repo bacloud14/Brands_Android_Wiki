@@ -1,9 +1,10 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.google.codelabs.mdc.kotlin.shrine.network.ProductEntry
+import com.google.codelabs.mdc.kotlin.shrine.R
+import com.bacloud.brands.network.ProductEntry
 
 class MainActivity : AppCompatActivity(), NavigationHost {
 

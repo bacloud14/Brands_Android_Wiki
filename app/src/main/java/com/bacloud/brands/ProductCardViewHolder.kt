@@ -1,10 +1,11 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 import com.android.volley.toolbox.NetworkImageView
+import com.google.codelabs.mdc.kotlin.shrine.R
 
 class ProductCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 

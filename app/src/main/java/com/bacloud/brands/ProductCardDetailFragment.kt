@@ -1,6 +1,5 @@
-package com.google.codelabs.mdc.kotlin.shrine
+package com.bacloud.brands
 
-import android.os.Build
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
@@ -9,7 +8,8 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.android.volley.toolbox.NetworkImageView
-import com.google.codelabs.mdc.kotlin.shrine.network.ImageRequester
+import com.google.codelabs.mdc.kotlin.shrine.R
+import com.bacloud.brands.network.ImageRequester
 import kotlinx.android.synthetic.main.shr_product_card_fragment.view.*
 
 class ProductCardDetailFragment : Fragment() {

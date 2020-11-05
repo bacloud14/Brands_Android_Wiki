@@ -1,4 +1,4 @@
-package com.google.codelabs.mdc.kotlin.shrine.staggeredgridlayout
+package com.bacloud.brands.staggeredgridlayout
 
 import android.view.View
 import android.widget.TextView
