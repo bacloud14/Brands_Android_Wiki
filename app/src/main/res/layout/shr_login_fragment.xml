@@ -24,7 +24,7 @@
             android:layout_marginBottom="16dp"
             android:contentDescription="@string/shr_logo_content_description"
             android:tint="?android:attr/textColorPrimary"
-            app:srcCompat="@drawable/shr_logo" />
+            app:srcCompat="@drawable/ic_brand" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,8 +44,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
-
+            >
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/contact_button"
+                style="@style/Widget.Shrine.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:text="@string/shr_button_contact" />
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/next_button"
                 style="@style/Widget.Shrine.Button"

@@ -9,9 +9,9 @@
 
         android:name="com.google.codelabs.mdc.kotlin.shrine.application.ShrineApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_brands"
         android:label="@string/shr_app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_brands_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Shrine.Autumn">
         <activity

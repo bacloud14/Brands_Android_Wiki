@@ -32,8 +32,8 @@ class ProductCardDetailFragment : Fragment() {
 //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 //            view.itt.background = context?.getDrawable(R.drawable.shr_product_grid_background_shape)
 //        }
-        view.product_title2.text = MainActivity.currentProduct.title
-        view.brand.text = MainActivity.currentProduct.title
+        view.product_title2.text = MainActivity.currentProduct.title.capitalize()
+        view.brand.text = MainActivity.currentProduct.title.capitalize()
         view.product_description.text = MainActivity.currentProduct.description
         view.product_description.movementMethod = ScrollingMovementMethod()
 //        navigationIconClickListener = NavigationIconClickListener2(

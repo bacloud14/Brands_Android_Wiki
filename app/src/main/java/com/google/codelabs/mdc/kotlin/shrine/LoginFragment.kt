@@ -1,5 +1,7 @@
 package com.google.codelabs.mdc.kotlin.shrine
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
 import android.text.method.LinkMovementMethod
@@ -7,8 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import kotlinx.android.synthetic.main.shr_login_fragment.*
 import kotlinx.android.synthetic.main.shr_login_fragment.view.*
+
 
 /**
  * Fragment representing the login screen for Shrine.
@@ -24,7 +26,18 @@ class LoginFragment : Fragment() {
         view.next_button.setOnClickListener {
             (activity as NavigationHost).navigateTo(ProductGridFragment(), false) // Navigate to the next Fragment
         }
+        view.contact_button.setOnClickListener {
+            fireContactUI()
+        }
         return view
+    }
+
+    private fun fireContactUI() {
+        val emailIntent = Intent(Intent.ACTION_SENDTO, Uri.fromParts(
+                "mailto", "bacloud14@gmail.com", null))
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, context?.getString(R.string.label_subject_email))
+        emailIntent.putExtra(Intent.EXTRA_TEXT, context?.getString(R.string.label_email_description))
+        startActivity(emailIntent)
     }
 
     /*

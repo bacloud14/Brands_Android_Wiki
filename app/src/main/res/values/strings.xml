@@ -10,7 +10,8 @@
     <string name="shr_search_title">Search</string>
     <string name="shr_product_title">Title</string>
     <string name="shr_product_description">Secondary text</string>
-    <string name="welcome_message">Welcome to Brands.</string>
+    <string name="welcome_message">Welcome to Brands.\nPlease note that harvesting brands, logos and Wikipedia summaries were done mostly programmatically using algorithms but also a consuming human verification; Thus, you can probably spot few errors when referring to brand names, where in very few cases company name was used interchangeably with it\'s main brand commercialization name.\n
+        In such case, please help us providing corrections.</string>
     <string name="donate_message">This application is free of ads.
         I was working hard on learning Android and providing tiny free apps.
         If you feel like helping me with coffee expenses, please check this link <a href="http://www.google.com">Google</a>
@@ -23,4 +24,8 @@
     <string name="shr_fashion_and_clothing_label">Fashion &amp; clothing</string>
     <string name="shr_food_and_beverage_label">Food &amp; beverages</string>
     <string name="shr_logo_content_description">Shrine Logo</string>
+    <string name="shr_button_contact">Feedback</string>
+    <string name="label_subject_email">Please review the following brand</string>
+    <string name="label_email_description">I spot an error in  the following brand</string>
+    <string name="label_send_email">myemail@gmail.com</string>
 </resources>

@@ -20,7 +20,7 @@ class ProductCardRecyclerViewAdapter internal constructor(private val productLis
     override fun onBindViewHolder(holder: ProductCardViewHolder, position: Int) {
         if (position < productList.size) {
             val product = productList[position]
-            holder.productTitle.text = product.title
+            holder.productTitle.text = product.title.capitalize()
             holder.productPrice.text = product.price
             ImageRequester.setImageFromUrl(holder.productImage, product.url)
         }
