@@ -23,7 +23,7 @@ class ProductEntry(
          */
 
         fun initProductEntryList(resources: Resources, category: String, query: String, limit: Int, random: Boolean): List<ProductEntry> {
-            val inputStream = resources.openRawResource(R.raw.test)
+            val inputStream = resources.openRawResource(R.raw.brands_dataset)
 
             val jsonProductsString = inputStream.bufferedReader().use(BufferedReader::readText)
             val gson = Gson()

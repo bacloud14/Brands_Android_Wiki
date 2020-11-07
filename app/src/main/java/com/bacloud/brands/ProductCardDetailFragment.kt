@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.android.volley.toolbox.NetworkImageView
-import com.google.codelabs.mdc.kotlin.shrine.R
 import com.bacloud.brands.network.ImageRequester
+import com.google.codelabs.mdc.kotlin.shrine.R
 import kotlinx.android.synthetic.main.shr_product_card_fragment.view.*
 
 class ProductCardDetailFragment : Fragment() {

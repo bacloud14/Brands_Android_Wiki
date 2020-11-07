@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bacloud.brands.MainActivity
 import com.bacloud.brands.NavigationHost
 import com.bacloud.brands.ProductCardDetailFragment
-import com.google.codelabs.mdc.kotlin.shrine.R
 import com.bacloud.brands.network.ImageRequester
 import com.bacloud.brands.network.ProductEntry
+import com.google.codelabs.mdc.kotlin.shrine.R
 
 /**
  * Adapter used to show an asymmetric grid of products, with 2 items in the first column, and 1

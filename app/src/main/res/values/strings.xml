@@ -12,10 +12,6 @@
     <string name="shr_product_description">Secondary text</string>
     <string name="welcome_message">Welcome to Brands.\nPlease note that harvesting brands, logos and Wikipedia summaries were done mostly programmatically using algorithms but also a consuming human verification; Thus, you can probably spot few errors when referring to brand names, where in very few cases company name was used interchangeably with it\'s main brand commercialization name.\n
         In such case, please help us providing corrections.</string>
-    <string name="donate_message">This application is free of ads.
-        I was working hard on learning Android and providing tiny free apps.
-        If you feel like helping me with coffee expenses, please check this link <a href="http://www.google.com">Google</a>
-        \n\nCheck my other apps on my Play store <a href="https://play.google.com/store/apps/developer?id=Abderrahim+Benseguane">page</a></string>
 
     <!-- Shrine backdrop menu labels -->
     <string name="shr_featured_label">Featured brands</string>

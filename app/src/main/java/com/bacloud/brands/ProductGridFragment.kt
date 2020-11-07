@@ -61,7 +61,7 @@ class ProductGridFragment : Fragment() {
         }
         view.recycler_view.layoutManager = gridLayoutManager
 
-        theList = ProductEntry.initProductEntryList(resources, category = "all", query = "all", limit = 15, random = true)
+        theList = ProductEntry.initProductEntryList(resources, category = "all", query = "all", limit = 30, random = true)
         adapter = StaggeredProductCardRecyclerViewAdapter(
                 theList)
         view.recycler_view.adapter = adapter
@@ -97,13 +97,13 @@ class ProductGridFragment : Fragment() {
         vwSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
                 println(query)
-                theList = ProductEntry.initProductEntryList(resources, category = "all", query = query, limit = 0, random = false)
+                theList = ProductEntry.initProductEntryList(resources, category = "all", query = query, limit = 10, random = false)
                 adapter.replaceList(theList)
                 return false
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
-                theList = ProductEntry.initProductEntryList(resources, category = "all", query = newText, limit = 0, random = false)
+                theList = ProductEntry.initProductEntryList(resources, category = "all", query = newText, limit = 10, random = false)
                 adapter.replaceList(theList)
                 return true
             }
@@ -119,19 +119,19 @@ class ProductGridFragment : Fragment() {
     private fun attachChangesProcessor(view: View) {
         val featured = view.findViewById(R.id.featured) as Button
         featured.setOnClickListener(navigationIconClickListener)
-        featured.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_featured, 0, 0, 0);
+        featured.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_featured, 0, 0, 0)
         val beautyAndCosmetics = view.findViewById(R.id.beauty_and_cosmetics) as Button
         beautyAndCosmetics.setOnClickListener(navigationIconClickListener)
-        beautyAndCosmetics.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_beauty_and_cosmetics, 0, 0, 0);
+        beautyAndCosmetics.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_beauty_and_cosmetics, 0, 0, 0)
         val cars = view.findViewById(R.id.cars) as Button
         cars.setOnClickListener(navigationIconClickListener)
-        cars.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_cars, 0, 0, 0);
+        cars.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_cars, 0, 0, 0)
         val fashionAndClothing = view.findViewById(R.id.fashion_and_clothing) as Button
         fashionAndClothing.setOnClickListener(navigationIconClickListener)
-        fashionAndClothing.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_fashion, 0, 0, 0);
+        fashionAndClothing.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_fashion, 0, 0, 0)
         val foodAndBeverage = view.findViewById(R.id.food_and_beverage) as Button
         foodAndBeverage.setOnClickListener(navigationIconClickListener)
-        foodAndBeverage.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_food_and_beverages, 0, 0, 0);
+        foodAndBeverage.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_food_and_beverages, 0, 0, 0)
     }
 
     override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {

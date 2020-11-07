@@ -7,7 +7,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 /**
- * Instrumented test, which will execute on an Android device.
+ * Instrumented brands dataset, which will execute on an Android device.
  *
  * @see [Testing documentation](http://d.android.com/tools/testing)
  */
@@ -15,9 +15,9 @@ import org.junit.runner.RunWith
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
-        // Context of the app under test.
+        // Context of the app under brands dataset.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
 
-        assertEquals("com.google.codelabs.mdc.java.shrine", appContext.packageName)
+        assertEquals("com.bacloud.brands", appContext.packageName)
     }
 }
