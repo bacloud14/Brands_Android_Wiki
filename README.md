@@ -10,10 +10,9 @@ So I named it Brands.
 
 ## A glimpse of UI:
 
-![Datus](Screen_Capture_Img_8461.png)
-![Datus](Screen_Capture_Img_6213.png)
-![Datus](Screen_Capture_Img_4753.png)
-![Datus](Screen_Capture_Img_6216.png)
+![Brands](merged1.png)
+![Brands](merged2.png)
+
 
 ## Work in progress:
 Refine the data mining algorithm here. Also human verification of each entry scrapped (title, Wikipedia summary and Logo).
