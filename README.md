@@ -8,13 +8,19 @@ For this, and part of my path learning native Android development, I came up wit
 
 So I named it Brands.
 
+## A glimpse of UI:
+
+![Datus](Screen_Capture_Img_8461.png)
+![Datus](Screen_Capture_Img_6213.png)
+![Datus](Screen_Capture_Img_4753.png)
+![Datus](Screen_Capture_Img_6216.png)
+
 ## Work in progress:
 Refine the data mining algorithm here. Also human verification of each entry scrapped (title, Wikipedia summary and Logo).
 
 Provide cache mechanism for "saving featured brands" probably using "Sharepreferences" or "SQLite" or anything else.
 
 Probably port the wiki feed ("brands.json") to Firebase to let update of data separate from app release.
-
 
 
 
