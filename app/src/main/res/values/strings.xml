@@ -19,6 +19,8 @@
     <string name="shr_cars_label">Cars</string>
     <string name="shr_fashion_and_clothing_label">Fashion &amp; clothing</string>
     <string name="shr_food_and_beverage_label">Food &amp; beverages</string>
+    <string name="shr_world_brands_label">Other world brands</string>
+
     <string name="shr_logo_content_description">Shrine Logo</string>
     <string name="shr_button_contact">Feedback</string>
     <string name="label_subject_email">Please review the following brand</string>

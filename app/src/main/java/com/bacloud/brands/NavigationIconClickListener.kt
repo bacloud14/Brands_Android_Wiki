@@ -56,6 +56,7 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
     private fun updateIcon(view: View) {
         if (openIcon != null && closeIcon != null) {
             if (view !is ImageView) {
+                println("@@@@@@@@@@@@@@@@@@@@@@@"+view.tag)
                 theList = ProductEntry.initProductEntryList(ProductGridFragment.productGridFragmentResources, category = view.tag as String, query = "all", limit = 0, random = false)
                 ProductGridFragment.adapter.replaceList(theList)
                 toolbar.title = (view.tag as String).replace("_", " ").capitalize()

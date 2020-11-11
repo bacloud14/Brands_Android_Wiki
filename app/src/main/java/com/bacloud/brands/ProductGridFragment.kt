@@ -132,6 +132,9 @@ class ProductGridFragment : Fragment() {
         val foodAndBeverage = view.findViewById(R.id.food_and_beverage) as Button
         foodAndBeverage.setOnClickListener(navigationIconClickListener)
         foodAndBeverage.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_food_and_beverages, 0, 0, 0)
+        val worldBrands = view.findViewById(R.id.world_brands) as Button
+        worldBrands.setOnClickListener(navigationIconClickListener)
+        worldBrands.setCompoundDrawablesWithIntrinsicBounds(R.drawable.shr_world_brands, 0, 0, 0)
     }
 
     override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {

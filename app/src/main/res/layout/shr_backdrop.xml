@@ -36,6 +36,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/shr_food_and_beverage_label" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/world_brands"
+        android:tag="world-brands"
+        style="@style/Widget.Shrine.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shr_world_brands_label" />
 
     <View
         android:layout_width="56dp"
